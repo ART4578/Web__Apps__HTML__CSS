@@ -1,0 +1,830 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1D1D1D;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    overflow-x: hidden;
+}
+ul,
+ol {
+    list-style: none;
+}
+button,
+textarea,
+input,
+select {
+    outline: none;
+    display: block;
+    border: none;
+    background: none;
+}
+select {
+    appearance: none;
+}
+textarea {
+    resize: none;
+}
+button,
+select {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+    background: grey;
+}
+
+.data {
+    width: 1059px;
+    height: 1855px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-top: 172px;
+    margin-left: 160px;
+}
+
+.component1 {
+    width: 100%;
+    height: 212px;
+}
+
+.head {
+    width: 100%;
+    height: 32px;
+    text-align: left;
+    font: normal normal bold 24px/24px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.val {
+    margin-top: 20px;
+    width: 100%;
+    height: 24px;
+}
+
+.val p {
+    font: normal normal bold 18px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+    text-align: left;
+}
+
+.inp {
+    width: 100%;
+    height: 122px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+}
+
+.inp1, .inp2 {
+    width: 100%;
+    height: 50%;
+}
+
+.inp1 {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+}
+
+.inp2 {
+    display: flex;
+    align-items: center;
+}
+
+.input1 {
+    width: 266px;
+    height: 24;
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1_div {
+    width: 26px;
+    height: 25px;
+    margin-left: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F5F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img1_div img {
+    width: 13px;
+    height: 13px;
+}
+
+.p2 {
+    width: 168px;
+    height: 21px;
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.inp1 .input {
+    margin-left: 30px;
+    width: 361px; 
+    height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.radio {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.p1 {
+    margin-left: 12px;
+}
+
+.component2 {
+    margin-top: 40px;
+    width: 100%;
+    height: 383px;
+}
+
+.component2 .head {
+    height: 24px;
+}
+
+.component2 .head p {
+    text-align: left;
+    font: normal normal bold 18px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1; 
+}
+
+.inp_div {
+    width: 100%;
+    height: 345px;
+    margin-top: 14px;
+}
+
+.input2, .input3,
+.input4, .input5,
+.input6 {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.input3, .input4,
+.input5, .input6 {
+    margin-top: 20px;
+}
+
+.child1, .child2, .child3,
+.child4, .child5, .child6,
+.child7, .child8 {
+    width: 514px;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.child2, .child4,
+.child6, .child8 {
+    margin-left: 23px;
+}
+
+.child9 {
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.child1 p, .child2 p, .child3 p,
+.child5 p, .child7 p, .child8 p,
+.child9 p {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.child1 p, .child3 p, .child8 p {
+    color: #1D1D1D;
+}
+
+.child2 p, .child5 p,
+.child7 p, .child9 p {
+    color: #9D9D9D;
+}
+
+.child4 .chil1, .child6 .chil1 {
+    width: 88px;
+    height: 100%;
+    border-right: 1px solid #E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_num {
+    width: 80px;
+    height: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon img {
+    width: 20px;
+    height: 13px;
+    background: transparent gray 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.num {
+    width: 36px;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num p {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.arrow_down {
+    width: 12px;
+    height: 100%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow_down img {
+    width: 12px;
+    height: 7px;
+    transform: matrix(0, -1, 1, 0, 0, 0);
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.child4 .chil2, .child6 .chil2 {
+    width: 430px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.child4 .chil2 p, 
+.child6 .chil2 p {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+.component3 {
+    margin-top: 40px;
+    width: 100%;
+    height: 416px;
+}
+
+.component3 .head {
+    margin-top: 40px;
+    width: 100%;
+    height: 32px;
+    text-align: left;
+    font: normal normal bold 24px/24px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.component3 .head p {
+    text-align: left;
+    font: normal normal bold 24px/24px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.component3 .head_txt p {
+    text-align: left;
+    font: normal normal bold 18px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.component3 .head_txt {
+    margin-top: 20px;
+    width: 100%;
+    height: 24px;
+    text-align: left;
+    font: normal normal bold 18px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.component3 .checkbox {
+    margin-top: 22px;
+    width: 100%;
+    height: 277px;
+}
+
+.component3 .checkbox .check_child {
+    width: 100%;
+    height: 24px;
+    margin-top: 18px;
+}
+
+.component3 .checkbox .check_child1, .check_child {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.check_child1 .chil1, .check_child .chil1 {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.ch {
+    width: 24px;
+    height: 24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #2463BF;
+    border-radius: 12px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c {
+    width: 14px;
+    height: 14px;
+    background: var(--unnamed-color-2463bf) 0% 0% no-repeat padding-box;
+    background: #2463BF 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.check_child1 .chil2 {
+    margin-left: 12px;
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 0.4;
+    display: flex;
+    align-items: center;
+}
+
+.check_child .chil2 {
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+.chil2 p {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 0.4;
+}
+
+.chil2 .chil_txt {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #1D1D1D;
+    opacity: 1;
+}
+
+.chil2 .chil_text {
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    color: #2463BF;
+    opacity: 1;
+}
+
+.component4 {
+    margin-top: 41px;
+    width: 100%;
+    height: 357px;
+}
+
+.component4 .content {
+    width: 100%;
+    height: 313px;
+}
+
+.component4 .content p {
+    text-align: left;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+
+.txt_content {
+    width: 1040px;
+    height: 100%;
+}
+
+.txt_content p {
+    text-align: left;
+    font: normal normal normal 16px/24px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.content .border {
+    width: 8px;
+    height: 100%;
+    background: #F5F5F6 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+
+.text_content {
+    width: 8px;
+    height: 150px;
+    background: #E1E1E1 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+.check_txt {
+    width: 138px;
+    height: 24px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.check_txt .check {
+    width: 24px;
+    height: 100%;
+    background: #2463BF 0% 0% no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.check_txt .check .child {
+    width: 16px;
+    height: 11px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.check_txt p {
+    width: 97px;
+    height: 100%;
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-left: 12px;
+}
+
+.check_txt span {
+    width: 7px;
+    height: 100%;
+    color: #E2000F;
+    text-align: left;
+    font: normal normal normal 16px/18px Roboto;
+    letter-spacing: 0px;
+}
+
+.component5 {
+    margin-top: 30px;
+    width: 100%;
+    height: 339px;
+}
+
+.inp3 {
+    width: 100%;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp_child1, .inp_child2 {
+    width: 331px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+}
+
+.inp_child1 input, .inp_child2 input {
+    padding-left: 20px;
+    width: 90%;
+    height: 100%;
+}
+
+.inp_child2 input {
+    width: 100%;
+    height: 100%;
+}
+
+.inp_child1 span, .inp_child2 span {
+    color: #E2000F;
+}
+
+.inp_child2 {
+    margin-left: 32px;
+}
+
+.inp4, .inp5 {
+    width: 512px;
+    height: 53px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+}
+
+.inp4 {
+    margin-top: 20px;
+}
+
+.inp5 {
+    margin-top: 15px;
+}
+
+.file_txt {
+    width: 352px;
+    height: 100%;
+}
+
+.file {
+    width: 158px;
+    height: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #E2000F;
+    opacity: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.file_icon {
+    width: 24px;
+    height: 24px;
+    background: transparent 0% 0% no-repeat padding-box;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file_icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.file_text {
+    margin-left: 10px;
+    width: 44px;
+    height: 21px;
+}
+
+.file_text p {
+    text-align: left;
+    font: normal normal bold 16px/19px Roboto;
+    letter-spacing: 0px;
+    color: #E2000F;
+    opacity: 1;
+}
+
+.file_txt p {
+    width: 200px;
+    height: 21px;
+}
+
+.file_txt {
+    display: flex;
+    align-items: center;
+}
+
+.txt_img {
+    margin-left: 20px;
+    width: 241px;
+    height: 21px;
+    display: flex;
+    align-items: center;
+}
+
+.txt_img p {
+    width: 250px;
+}
+
+.txt_img span {
+    color: #E2000F;
+}
+
+.img_icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.img_icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.imgs {
+    margin-top: 20px;
+    width: 350px;
+    height: 121px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imgs1, .imgs2 {
+    width: 158px;
+    height: 100%;
+    background: transparent 0% 0% no-repeat padding-box;
+    border: 1px solid #E1E1E1;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgs1 img, .imgs2 img {
+    width: 158px;
+    height: 121px;
+}
+
+.imgs2 {
+    margin-left: 32px;
+}
+
+/*Responsive Mobile*/
+@media screen and (max-width: 1280px) {
+    .data {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    .component1 .head, .component1 .val {
+        display: flex;
+        justify-content: center;
+    }
+    .component1 .inp {
+        width: 600px;
+        margin-left: 210px;
+    }
+    .component2 {
+        height: 700px;
+    }
+    .component2 .head {
+        display: flex;
+        justify-content: center;
+    }
+    .component2 .inp_div {
+        width: 600px;
+        height: 652px;
+        display: block;
+        margin-left: 210px;
+    }
+    .input2, .input3, .input4, .input5 {
+        width: 100%;
+        height: 129px;
+
+    }
+    .input2 .child1, .input2 .child2, .input3 .child3, .input3 .child4,
+    .input4 .child5, .input4 .child6, .input5 .child7, .input5 .child8{
+        width: 100%;
+        height: 53px;
+    }
+    .input2 .child2, .child4, .child6, .child8 {
+        margin-top: 23px;
+        margin-left: 0px;
+    }
+    .input6 {
+        width: 100%;
+        height: 53px;
+    }
+    .input6 .child9 {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .component3 .head, .component3 .head_txt {
+        display: flex;
+        justify-content: center;
+    }
+    .component3 .checkbox {
+        padding-left: 330px;
+    }
+    .component4 .txt_content {
+        padding-left: 16px;
+    }
+    .component4 .check_txt {
+        margin-left: 16px;
+    }
+    .inp3 {
+        height: 138px;
+    }
+    .inp3 .inp_child1 {
+        height: 53px;
+        margin-left: 360px;
+    }
+    .inp3 .inp_child2 {
+        height: 53px;
+        margin-top: 82px;
+        margin-left: -333px;
+    } 
+    .component5 {
+        height: 430px;
+    }
+    .component5 .inp4, .component5 .inp5 {
+        margin-left: 280px;
+    }
+    .component5 .imgs {
+        margin-left: 360px;
+    }
+}

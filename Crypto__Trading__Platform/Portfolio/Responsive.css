@@ -1,0 +1,971 @@
+/*responsive*/
+@media screen and (max-width: 1024px) {
+    .portfolio {
+        width: 100%;
+        height: 2150px;
+        display: block;
+    }
+
+    /*portfolio menu*/
+    .portfolio .portfolio__menu  {
+        width: 100%;
+        height: 700px;
+    }
+
+    .portfolio__menu .portfolio__icon {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio__menu .menu {
+        width: 100%;
+        height: 550px;
+        margin-top: 68px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .menu .menu__block {
+        width: 182px;
+        height: 100%;
+    }
+
+    .menu .menu__block .menu__logout__icons {
+        width: 100%;
+        height: 76px;
+        margin-top: 60px;
+    }
+
+    /*portfolio content*/
+    .portfolio .portfolio__content {
+        width: 100%;
+        height: 1430px;
+    }
+
+    .portfolio__content .search__notif__user {
+        width: 100%;
+        height: 200px; 
+    }    
+
+    .search__notif__user .search__notif__user__block {
+        width: 100%;
+        height: 100%;
+        margin-left: 5px;
+        display: block;
+    }
+
+    .search__not__us .search__box {
+        width: 180px;
+    } 
+    
+    .search__box .search__input {
+        width: 132px;
+    }
+
+    .search__not__us__block .not__us {
+        width: 165px;
+        margin-right: 125px;
+    }
+
+    .not__us .not__block {
+        width: 40px;
+    }
+    
+    .not__block .img {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .not__us .user__block {
+        width: 42px;
+        margin-left: 7px;
+    }
+    
+    .not__us .user__name__block {
+        width: 50px;
+        margin-left: 6px;
+    }
+    
+    .user__name__block .text__content {
+        font-size: 14px;
+    }
+    
+    .not__us .arrow__block {
+        margin-left: 4px;
+    }
+    
+    .portfolio__content .current__user {
+        width: 100%;
+        height: 140px;
+        margin-top: 70px;
+    }
+
+    .current__user .current__user__block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .current__user__block .current__content {
+        width: 169px;
+        height: 100%;
+    }
+    
+    .view__money .money__text {
+        font-size: 20px;
+    }
+
+    .curr__btns__blocks {
+        height: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .curr__btns__blocks .btn__edit {
+        width: 100px;
+        margin-left: 3px;
+    }
+    
+    .btn__edit .img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .btn__edit .edit__txt {
+        font-size: 16px;
+    }
+
+    .curr__btns__blocks .btn__add {
+        width: 160px;
+    }
+    
+    .btn__add .img {
+        width: 22px;
+        height: 22px;
+    }
+
+    .btn__add .add__txt {
+        font-size: 16px;
+    }
+
+    .portfolio__content .cryptos__status {
+        width: 100%;
+        height: 124px;
+    }
+
+    .cryptos__status .cryptos__status__block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .cryptos__status__block .status__techer {
+        width: 100%;
+        height: 34px;
+        margin-left: 0px;
+    }
+
+    .status__techer .tech__blocks {
+        width: 100%;
+    }
+    
+    .status__techer .techer__block {
+        width: 100%;
+    }
+
+    .cryptos__status__block .status__sushi {
+        width: 100%;
+        height: 34px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .cryptos__status__block .status__bitcoin {
+        width: 100%;
+        height: 34px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .status__bitcoin .bitcoin__blocks {
+        width: 100%;
+    }
+
+    .bitcoin__blocks .bitcoin__block__content {
+        width: 100%;
+    }
+
+    .portfolio__content .crypto__money__time {
+        width: 100%;
+        height: 150px;
+        margin-top: 30px;
+    }
+    
+    .crypto__money__time .crypto__money__time__block {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .crypto__money__time__block .crypto__all__time {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crypto__all__time .all__time__txt {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .crypto__all__time .all__tim__cry {
+        margin-left: 5px;
+    }
+
+    .crypto__money__time__block .crypto__best__time {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .crypto__money__time__block .crypto__worst__time {
+        width: 100%;
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio__content .holdings {
+        width: 100%;
+    }
+    
+    .holdings .holdings__block {
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    
+    .holdings__header .hold__assets__txt {
+        width: 48px;
+    }
+
+    .holdings__header .hold__price__txt, .holdings__header .hold__h__txt,
+    .holdings__header .hold__balance__txt, .holdings__header .hold__avg__txt,
+    .holdings__header .hold__profit__txt, .holdings__header .hold__actions__txt {
+        margin-left: 13px;
+    }
+    
+    /*holdings tether*/
+    .holdings__crypto__money .holdings__tether {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__tether .holdings__tether__block {
+        width: 100%;
+    }
+
+    .holdings__tether__block .tether__assets {
+        width: 60px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+    }
+
+    .tether__assets .tether__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .tether__assets .tether__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__tether__block .tether__price {
+        width: 30px;
+        height: 60px;
+        margin-left: 15px;
+    }
+
+    .tether__price .tether__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__tether__block .tether__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tether__h .tether__h__text {
+        font-size: 9px;
+    }
+
+    .holdings__tether__block .tether__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 15px;
+    }
+
+    .tether__balance .tether__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__tether__block .tether__avg {
+        width: 30px;
+        height: 60px;
+        margin-left: 15px;
+    }
+
+    .tether__avg .tether__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__tether__block .tether__profit {
+        width: 25px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .tether__profit .tether__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__tether__block .tether__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__tether .tether__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .tether__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings bitcoin*/
+    .holdings__crypto__money .holdings__bitcoin {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__bitcoin .holdings__bitcoin__block {
+        width: 100%;
+    }
+
+    .holdings__bitcoin__block .bitcoin__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .bitcoin__assets .bitcoin__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .bitcoin__assets .bitcoin__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .bitcoin__price .bitcoin__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bitcoin__h .bitcoin__h__text {
+        font-size: 9px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__balance {
+        width: 30px;
+        height: 60px;
+        margin-left: 10px;
+    }
+
+    .bitcoin__balance .bitcoin__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 7px;
+    }
+
+    .bitcoin__avg .bitcoin__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 21px;
+    }
+
+    .bitcoin__profit .bitcoin__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__bitcoin__block .bitcoin__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__bitcoin .bitcoin__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .bitcoin__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings sushi*/
+    .holdings__crypto__money .holdings__sushi {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__sushi .holdings__sushi__block {
+        width: 100%;
+    }
+
+    .holdings__sushi__block .sushi__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .sushi__assets .sushi__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .sushi__assets .sushi__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__sushi__block .sushi__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .sushi__price .sushi__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__sushi__block .sushi__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sushi__h .sushi__h__text {
+        font-size: 9px;
+    }
+    
+    .holdings__sushi__block .sushi__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 4px;
+    }
+
+    .sushi__balance .sushi__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__sushi__block .sushi__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+    .sushi__avg .sushi__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__sushi__block .sushi__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .sushi__profit .sushi__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__sushi__block .sushi__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__sushi .sushi__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .sushi__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings ton*/
+    .holdings__crypto__money .holdings__ton {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__ton .holdings__ton__block {
+        width: 100%;
+    }
+
+    .holdings__ton__block .ton__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .ton__assets .ton__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .ton__assets .ton__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__ton__block .ton__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .ton__price .ton__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__ton__block .ton__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ton__h .ton__h__text {
+        font-size: 9px;
+    }
+    
+    .holdings__ton__block .ton__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 4px;
+    }
+
+    .ton__balance .ton__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__ton__block .ton__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+    .ton__avg .ton__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__ton__block .ton__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .ton__profit .ton__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__ton__block .ton__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__ton .ton__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ton__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings trx*/
+    .holdings__crypto__money .holdings__trx {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__trx .holdings__trx__block {
+        width: 100%;
+    }
+
+    .holdings__trx__block .trx__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .trx__assets .trx__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .trx__assets .trx__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__trx__block .trx__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .trx__price .trx__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__trx__block .trx__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trx__h .trx__h__text {
+        font-size: 9px;
+    }
+    
+    .holdings__trx__block .trx__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 4px;
+    }
+
+    .trx__balance .trx__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__trx__block .trx__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+    .trx__avg .trx__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__trx__block .trx__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .trx__profit .trx__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__trx__block .trx__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__trx .trx__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .trx__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings litecoin*/
+    .holdings__crypto__money .holdings__litecoin {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__litecoin .holdings__litecoin__block {
+        width: 100%;
+    }
+
+    .holdings__litecoin__block .litecoin__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .litecoin__assets .litecoin__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .litecoin__assets .litecoin__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__litecoin__block .litecoin__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .litecoin__price .litecoin__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__litecoin__block .litecoin__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .litecoin__h .litecoin__h__text {
+        font-size: 9px;
+    }
+    
+    .holdings__litecoin__block .litecoin__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 4px;
+    }
+
+    .litecoin__balance .litecoin__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__litecoin__block .litecoin__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+    .litecoin__avg .litecoin__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__litecoin__block .litecoin__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .litecoin__profit .litecoin__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__litecoin__block .litecoin__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__litecoin .litecoin__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .litecoin__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+
+    /*holdings ethereum*/
+    .holdings__crypto__money .holdings__ethereum {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .holdings__ethereum .holdings__ethereum__block {
+        width: 100%;
+    }
+
+    .holdings__ethereum__block .ethereum__assets {
+        width: 57px;
+        display: flex;
+        flex-direction: column;
+        height: 60px;
+        margin-left: 0px;
+    }
+
+    .ethereum__assets .ethereum__assets__text {
+        margin-left: 0px;
+        font-size: 9px;
+    }
+
+    .ethereum__assets .ethereum__assets__txt {
+        font-size: 7px;
+    }
+
+    .holdings__ethereum__block .ethereum__price {
+        width: 60px;
+        height: 60px;
+        margin-left: 4px;
+    }
+    
+    .ethereum__price .ethereum__price__txt {
+        font-size: 9px;
+    }
+
+    .holdings__ethereum__block .ethereum__h {
+        width: 30px;
+        height: 60px;
+        margin-left: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ethereum__h .ethereum__h__text {
+        font-size: 9px;
+    }
+    
+    .holdings__ethereum__block .ethereum__balance {
+        width: 40px;
+        height: 60px;
+        margin-left: 4px;
+    }
+
+    .ethereum__balance .ethereum__balance__text {
+        font-size: 9px;
+    }
+
+    .holdings__ethereum__block .ethereum__avg {
+        width: 40px;
+        height: 60px;
+        margin-left: 6px;
+    }
+
+    .ethereum__avg .ethereum__avg__text {
+        font-size: 9px;
+    }
+
+    .holdings__ethereum__block .ethereum__profit {
+        width: 38px;
+        height: 60px;
+        margin-left: 17px;
+    }
+
+    .ethereum__profit .ethereum__profit__text {
+        font-size: 9px;
+    }
+
+    .holdings__ethereum__block .ethereum__actions {
+        width: 56px;
+        height: 60px;
+        margin-left: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .holdings__ethereum .ethereum__actions .action__add {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ethereum__actions .action__points {
+        width: 25px;
+        height: 25px;
+        margin-left: 2px;
+    }
+}

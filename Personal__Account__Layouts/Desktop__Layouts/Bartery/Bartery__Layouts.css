@@ -1,0 +1,349 @@
+/*google fonts*/
+
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*bartery*/
+.finance__barter .bartery {
+    width: 100%;
+    height: 729px;
+    margin-top: 16px;
+    display: flex;
+}
+
+/*bartery blocks 1 bartery blocks 2*/
+.bartery .bartery__block__one, .bartery .bartery__block__two {
+    height: 100%;
+    margin-left: 20px;
+}
+
+/*blocks*/
+.bartery__block__one .bart__block__one,
+.bartery__block__one .bart__block__two,
+.bartery__block__one .bart__block__three,
+.bartery__block__one .bart__block__four,
+.bartery__block__one .bart__block__five,
+.bartery__block__two .bart__block__six,
+.bartery__block__two .bart__block__seven,
+.bartery__block__two .bart__block__eight {
+    width: 100%;
+    border-radius: 16px;
+    border: none;
+}
+
+/*bartery blocks font*/
+.bartery__block__one .bart__block__one .bart__txt__block,
+.bartery__block__one .bart__block__two .bart__txt__block,
+.bartery__block__one .bart__block__three .bart__txt__block,
+.bartery__block__one .bart__block__four .bart__txt__block,
+.bartery__block__one .bart__block__five .bart__txt__block,
+.bartery__block__two .bart__block__six .bart__txt__block,
+.bartery__block__two .bart__block__seven .bart__txt__block,
+.bartery__block__two .bart__block__eight .bart__txt__block {
+    width: 100%;
+    border-radius: 16px;
+    display: flex;
+}
+
+/*fonts*/
+.bartery__block__one .bart__block__one .bart__txt__block .bart__cont,
+.bartery__block__one .bart__block__two .bart__txt__block .bart__cont,
+.bartery__block__one .bart__block__three .bart__txt__block .bart__cont,
+.bartery__block__one .bart__block__four .bart__txt__block .bart__cont,
+.bartery__block__one .bart__block__five .bart__txt__block .bart__cont,
+.bartery__block__two .bart__block__six .bart__txt__block .bart__cont,
+.bartery__block__two .bart__block__seven .bart__txt__block .bart__cont,
+.bartery__block__two .bart__block__eight .bart__txt__block .bart__cont {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+/*bartery blocks icon*/
+.bartery__block__one .bart__block__one .bart__icon__block,
+.bartery__block__one .bart__block__two .bart__icon__block,
+.bartery__block__one .bart__block__three .bart__icon__block,
+.bartery__block__one .bart__block__four .bart__icon__block,
+.bartery__block__one .bart__block__five .bart__icon__block,
+.bartery__block__two .bart__block__six .bart__icon__block,
+.bartery__block__two .bart__block__seven .bart__icon__block,
+.bartery__block__two .bart__block__eight .bart__icon__block {
+    width: 100%;
+    border-radius: 16px;    
+    display: flex;   
+}
+
+/*bartery block img*/
+.bartery__block__one .bart__block__one .bart__icon__block .icon__bart,
+.bartery__block__one .bart__block__two .bart__icon__block .icon__bart,
+.bartery__block__one .bart__block__three .bart__icon__block .icon__bart,
+.bartery__block__one .bart__block__four .bart__icon__block .icon__bart,
+.bartery__block__one .bart__block__five .bart__icon__block .icon__bart,
+.bartery__block__two .bart__block__six .bart__icon__block .icon__bart,
+.bartery__block__two .bart__block__seven .bart__icon__block .icon__bart,
+.bartery__block__two .bart__block__eight .bart__icon__block .icon__bart {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*imgs*/
+.bartery__block__one .bart__block__one .bart__icon__block .icon__bart .arrow__one,
+.bartery__block__one .bart__block__two .bart__icon__block .icon__bart .arrow__two,
+.bartery__block__one .bart__block__three .bart__icon__block .icon__bart .arrow__three,
+.bartery__block__one .bart__block__four .bart__icon__block .icon__bart .arrow__four,
+.bartery__block__one .bart__block__five .bart__icon__block .icon__bart .arrow__five,
+.bartery__block__two .bart__block__six .bart__icon__block .icon__bart .arrow__six,
+.bartery__block__two .bart__block__seven .bart__icon__block .icon__bart .arrow__seven,
+.bartery__block__two .bart__block__eight .bart__icon__block .icon__bart .arrow__eight {
+    width: 100%;
+}
+
+/*bartery blocks 1*/
+.bartery .bartery__block__one {
+    width: 440px;
+}
+
+/*block 1*/
+.bartery__block__one .bart__block__one {
+    height: 150px;
+    background-color: #476FFD;
+}
+
+.bartery__block__one .bart__block__one .bart__txt__block {
+    height: 124px;
+}
+
+.bartery__block__one .bart__block__one .bart__txt__block .bart__cont {
+    color: #FFFFFF;
+}
+
+.bartery__block__one .bart__block__one .bart__icon__block {
+    height: 26px;  
+    justify-content: flex-end;
+}
+
+.bartery__block__one .bart__block__one .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__one .bart__block__one .bart__icon__block .icon__bart .arrow__one {
+    height: 20px;
+    color: #B9FF66;
+}
+
+/*block 2*/
+.bartery__block__one .bart__block__two {
+    height: 117px;
+    background-color: #A3A1FF;
+    margin-top: 19px;
+}
+
+.bartery__block__one .bart__block__two .bart__txt__block {
+    height: 93px;
+}
+
+.bartery__block__one .bart__block__two .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__one .bart__block__two .bart__icon__block {
+    height: 24px;
+    justify-content: flex-end;
+}
+
+.bartery__block__one .bart__block__two .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__one .bart__block__two .bart__icon__block .icon__bart .arrow__two {
+    height: 20px;
+    color: #FFFFFF;
+}
+
+/*block 3*/
+.bartery__block__one .bart__block__three {
+    height: 127px;
+    background-color: #A0F059;
+    margin-top: 19px;
+}
+
+.bartery__block__one .bart__block__three .bart__txt__block {
+    height: 104px;
+}
+
+.bartery__block__one .bart__block__three .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__one .bart__block__three .bart__icon__block {
+    height: 24px;
+    justify-content: flex-end;
+}
+
+.bartery__block__one .bart__block__three .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__one .bart__block__three .bart__icon__block .icon__bart .arrow__three {
+    height: 19px;
+    color: #322FEE;
+}
+
+/*block 4*/
+.bartery__block__one .bart__block__four {
+    height: 127px;
+    background-color: #D9D9D9;
+    margin-top: 19px;
+}
+
+.bartery__block__one .bart__block__four .bart__txt__block {
+    height: 103px;
+}
+
+.bartery__block__one .bart__block__four .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__one .bart__block__four .bart__icon__block {
+    height: 24px;
+    justify-content: flex-end;
+}
+
+.bartery__block__one .bart__block__four .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__one .bart__block__four .bart__icon__block .icon__bart .arrow__four {
+    height: 19px;
+    color: #000000;
+}
+
+/*block 5*/
+.bartery__block__one .bart__block__five {
+    height: 129px;
+    background-color: #322FEE;
+    margin-top: 19px;
+}
+
+.bartery__block__one .bart__block__five .bart__txt__block {
+    height: 105px;
+}
+
+.bartery__block__one .bart__block__five .bart__txt__block .bart__cont {
+    color: #FEFEFE;
+}
+
+.bartery__block__one .bart__block__five .bart__icon__block {
+    height: 24px;
+    justify-content: flex-end;
+}
+
+.bartery__block__one .bart__block__five .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__one .bart__block__five .bart__icon__block .icon__bart .arrow__five {
+    height: 19px;
+    color: #FEFEFE;
+}
+
+/*bartery blocks 2*/
+.bartery .bartery__block__two {
+    width: 325px;
+}
+
+/*block 6*/
+.bartery__block__two .bart__block__six {
+    height: 271.29px;
+    background-color: #D9D9D9;
+}
+
+.bartery__block__two .bart__block__six .bart__txt__block {
+    height: 247px;
+}
+
+.bartery__block__two .bart__block__six .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__two .bart__block__six .bart__icon__block {
+    height: 24px;
+}
+
+.bartery__block__two .bart__block__six .bart__icon__block .icon__bart {
+    margin-left: 20px;
+}
+
+.bartery__block__two .bart__block__six .bart__icon__block .icon__bart .arrow__six {
+    height: 19px;
+    color: #000000;
+}
+
+/*block 7*/
+.bartery__block__two .bart__block__seven {
+    height: 226px;
+    background-color: #FEFEFE;
+    border: 1px solid #000000;
+    margin-top: 31.71px;
+}
+
+.bartery__block__two .bart__block__seven .bart__txt__block {
+    height: 201px;
+}
+
+.bartery__block__two .bart__block__seven .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__two .bart__block__seven .bart__icon__block {
+    height: 24px;
+}
+
+.bartery__block__two .bart__block__seven .bart__icon__block .icon__bart {
+    margin-left: 20px;
+}
+
+.bartery__block__two .bart__block__seven .bart__icon__block .icon__bart .arrow__seven {
+    height: 19px;
+    color: #000000;
+}
+
+/*block 8*/
+.bartery__block__two .bart__block__eight {
+    height: 164.75px;
+    background-color: #A3A1FF;
+    margin-top: 31.71px;
+}
+
+.bartery__block__two .bart__block__eight .bart__txt__block {
+    height: 141px;
+}
+
+.bartery__block__two .bart__block__eight .bart__txt__block .bart__cont {
+    color: #000000;
+}
+
+.bartery__block__two .bart__block__eight .bart__icon__block {
+    height: 24px;
+    justify-content: flex-end;
+}
+
+.bartery__block__two .bart__block__eight .bart__icon__block .icon__bart {
+    margin-right: 20px;
+}
+
+.bartery__block__two .bart__block__eight .bart__icon__block .icon__bart .arrow__eight {
+    height: 19px;
+    color: #FEFEFE;
+}

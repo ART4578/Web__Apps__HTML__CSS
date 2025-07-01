@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #C7C2C2;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.sort-container {
+  width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+}
+
+.sort-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn {
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #C7C2C2;
+}
+
+.sort-title {
+  font-size: 22px;
+  font-weight: 700;
+  flex-grow: 1;
+  text-align: center;
+  margin-left: -22px; /* compensate back arrow width */
+}
+
+.sort-options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sort-options li {
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.reset,
+.show {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: white;
+  color: #4b32d9;
+  border: 2px solid #4b32d9;
+}
+
+.show {
+  background-color: #4b32d9;
+  color: white;
+  border: none;
+}

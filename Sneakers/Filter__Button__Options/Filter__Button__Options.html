@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Filter__Button__Options.css">
+    <title>Filter Button Options</title>
+</head>
+<body>
+    <div class="filter-container">
+
+    <!-- Սովորական select կոճակ -->
+    <div class="filter-button">
+      Материал верха <span class="arrow">⌄</span>
+    </div>
+
+    <!-- Hover տարբերակ -->
+    <div class="filter-button hover">
+      Материал верха <span class="arrow">⌄</span>
+    </div>
+
+    <!-- Ընտրված տարբերակ -->
+    <div class="filter-button selected">
+      Материал верха <span class="close">✕</span>
+    </div>
+
+    <!-- Ընդլայնված ընտրացանկ -->
+    <div class="filter-dropdown">
+      <div class="filter-button">
+        Материал верха <span class="arrow">⌄</span>
+      </div>
+      <div class="dropdown-content">
+        <input type="text" placeholder="Поиск">
+        <label><input type="checkbox" checked> Кожа</label>
+        <label><input type="checkbox"> ПВХ</label>
+        <label><input type="checkbox"> Акрил</label>
+        <label><input type="checkbox"> Бархат</label>
+        <label><input type="checkbox"> Брезент</label>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,569 @@
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*sobitija 1*/
+.sobitija {
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+}
+
+.sobitija .sobitija__block {
+    width: 428px;
+    height: 1370px;
+    border-radius: 35px;
+    background-color: #FFFFFF;
+}
+
+/*header*/
+.sobitija__block .header {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header .header__block {
+    width: 368px;
+    height: 100%;
+    display: flex;
+}
+
+.header__block .arrow__left {
+    width: 47px;
+    height: 100%;
+    background-color: #A4A9AE40;
+    border-radius: 23.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__left .img {
+    width: 8px;
+    height: 15.5px;
+}
+
+.header__block .user__img {
+    width: 47px;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__img .img {
+    width: 100%;
+    height: 45px;
+}
+
+.header__block .header__txt {
+    width: 100px;
+    height: 100%;
+    margin-left: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__txt .txt__head {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+}
+
+.header__block .notification {
+    width: 47px;
+    height: 100%;
+    background-color: #A4A9AE40;
+    border-radius: 23.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 82px;
+}
+
+.notification .img {
+    width: 20.37px;
+    height: 22px;
+}
+
+/*lipeck*/
+.sobitija__block .lipeck {
+    width: 100%;
+    height: 351.04px;
+    margin-top: 32.32px;
+    display: flex;
+    justify-content: center;
+}
+
+.lipeck .lipeck__block {
+    width: 368px;
+    height: 100%;
+    box-shadow: 1px 5px 40px 0px #A4A9AE33;
+    background-color: #FFFFFF;
+}
+
+/*lipeck img*/
+.lipeck__block .lipeck__img {
+    width: 100%;
+    height: 224px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #476FFD;
+    position: relative;
+}
+
+.lipeck__img .lipeck__maps {
+    width: 33px;
+    height: 33px;
+    margin-top: 130px;
+    margin-left: 22px;
+}
+
+.lipeck__img .lip__txt {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 22px;
+}
+
+.lipeck__img .lip__img {
+    width: 151px;
+    height: 219px;
+    position: absolute;
+    top: 3px;
+    left: 220px;
+}
+
+/*lipeck content*/
+.lipeck__block .lipeck__content {
+    width: 100%;
+    height: 92px;
+    margin-top: 17.15px;
+    display: flex;
+    justify-content: center;
+}
+
+.lipeck__content .lip__cont {
+    width: 324px;
+    height: 100%;
+    display: flex;
+}
+
+.lip__cont .lip__content {
+    width: 150px;
+    height: 100%;
+}
+
+.lip__content .content__one {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.lip__content .content__two {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A4A9AE;
+    margin-top: 3px;
+}
+
+.lip__content .content__three {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.lip__cont .lip__btn {
+    width: 118px;
+    height: 100%;
+    margin-left: 54px;
+}
+
+.lip__btn .button {
+    width: 100%;
+    height: 32px;
+    background-color: #322FEE;
+    border-radius: 7px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+/*pushkin*/
+.sobitija__block .pushkin {
+    width: 100%;
+    height: 351.04px;
+    margin-top: 19.96px;
+    display: flex;
+    justify-content: center;
+}
+
+.pushkin .pushkin__block {
+    width: 368px;
+    height: 100%;
+    box-shadow: 1px 5px 40px 0px #A4A9AE33;
+    background-color: #FFFFFF;
+}
+
+/*pushkin img*/
+.pushkin__block .pushkin__img {
+    width: 100%;
+    height: 224px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #EFACD1;
+    position: relative;
+}
+
+.pushkin__img .pushkin__maps {
+    width: 33px;
+    height: 33px;
+    margin-top: 130px;
+    margin-left: 22px;
+}
+
+.pushkin__img .push__txt {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 22px;
+}
+
+.pushkin__img .push__img {
+    width: 221px;
+    height: 195.59px;
+    position: absolute;
+    top: 28px;
+    left: 146px;
+}
+
+/*pushkin content*/
+.pushkin__block .pushkin__content {
+    width: 100%;
+    height: 92px;
+    margin-top: 17.15px;
+    display: flex;
+    justify-content: center;
+}
+
+.pushkin__content .push__cont {
+    width: 324px;
+    height: 100%;
+    display: flex;
+}
+
+.push__cont .push__content {
+    width: 150px;
+    height: 100%;
+}
+
+.push__content .content__one {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.push__content .content__two {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A4A9AE;
+    margin-top: 3px;
+}
+
+.push__content .content__three {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.push__cont .push__btn {
+    width: 118px;
+    height: 100%;
+    margin-left: 54px;
+}
+
+.push__btn .button {
+    width: 100%;
+    height: 32px;
+    background-color: #322FEE;
+    border-radius: 7px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+
+/*ekatirinburg*/
+.sobitija__block .ekatirinburg {
+    width: 100%;
+    height: 351.04px;
+    margin-top: 19.96px;
+    display: flex;
+    justify-content: center;
+}
+
+.ekatirinburg .ekatirinburg__block {
+    width: 368px;
+    height: 100%;
+    box-shadow: 1px 5px 40px 0px #A4A9AE33;
+    background-color: #FFFFFF;
+}
+
+/*ekatirinburg img*/
+.ekatirinburg__block .ekatirinburg__img {
+    width: 100%;
+    height: 224px;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #A0F059;
+    position: relative;
+}
+
+.ekatirinburg__img .ekatirinburg__maps {
+    width: 33px;
+    height: 33px;
+    margin-top: 130px;
+    margin-left: 22px;
+}
+
+.ekatirinburg__img .ekat__txt {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 22px;
+}
+
+.ekatirinburg__img .ekat__img {
+    width: 236px;
+    height: 147px;
+    position: absolute;
+    top: 10px;
+    left: 132px;
+}
+
+/*ekatirinburg content*/
+.ekatirinburg__block .ekatirinburg__content {
+    width: 100%;
+    height: 92px;
+    margin-top: 17.15px;
+    display: flex;
+    justify-content: center;
+}
+
+.ekatirinburg__content .ekat__cont {
+    width: 324px;
+    height: 100%;
+    display: flex;
+}
+
+.ekat__cont .ekat__content {
+    width: 150px;
+    height: 100%;
+}
+
+.ekat__content .content__one {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.ekat__content .content__two {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A4A9AE;
+    margin-top: 3px;
+}
+
+.ekat__content .content__three {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #23303B;
+    margin-top: 3px;
+}
+
+.ekat__cont .ekat__btn {
+    width: 118px;
+    height: 100%;
+    margin-left: 54px;
+}
+
+.ekat__btn .button {
+    width: 100%;
+    height: 32px;
+    background-color: #322FEE;
+    border-radius: 7px;
+    border: none;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+/*footer menu*/
+.sobitija__block .footer__menu {
+    width: 100%;
+    height: 93px;
+    border-radius: 35px;
+    margin-top: 74px;
+    box-shadow: 0px 11px 44px 19px #0000001A;
+    background-color: #F9F9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__menu .foot__men {
+    width: 332px;
+    height: 27px;
+    display: flex;
+}
+
+.foot__men .menu__home {
+    width: 25px;
+    height: 100%;
+}
+
+.menu__home .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__proekt {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__proekt .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__finance {
+    width: 31px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__finance .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__barter {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__barter .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__settings {
+    width: 26px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__settings .img {
+    width: 100%;
+    height: 26px;
+}
+
+.foot__men .menu__exit {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__exit .img {
+    width: 100%;
+    height: 25px;
+}

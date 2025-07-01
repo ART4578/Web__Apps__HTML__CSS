@@ -1,0 +1,239 @@
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*signup*/
+.signup {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup .signup__block {
+    width: 428px;
+    height: 926px;
+    border-radius: 35px;
+    border: none;
+    background-color: #23303B;
+}
+
+/*image header*/
+.signup__block .signup__image {
+    width: 100%;
+    height: 170px;
+    border-radius: 35px;
+}
+
+.signup__image .img {
+    width: 436.45px;
+    height: 150px;
+    margin-left: -4px;
+    border-radius: 35px;
+}
+
+/*signup inputs*/
+.signup__block .signup__inputs {
+    width: 100%;
+    height: 730px;
+    border-radius: 35px;
+}
+
+/*header*/
+.signup__block .header__txt {
+    width: 100%;
+    height: 94px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__txt .txt__head {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*inputs*/
+.signup__block .inp__block {
+    width: 100%;
+    height: 63px;
+    margin-top: 15.91px;
+    border-radius: 35px;   
+    display: flex;
+    justify-content: center;
+}
+
+.inp__block .inp__name__block {
+    width: 316px;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.inp__name__block .inp {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.signup__inputs .margin__style {
+    margin-top: 25.99px;
+}
+
+/*phone text*/
+.signup__inputs .phone__txt {
+    width: 100%;
+    height: 52px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    margin-top: 26.91px;
+}
+
+.phone__txt .txt__phone {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8E949A;
+}
+
+.signup__inputs .margin__style__phone {
+    margin-top: 28px;
+}
+
+/*inputs checkbox*/
+.signup__inputs .check__one {
+    width: 100%;
+    height: 42px;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.check__one .ch__one__block {
+    width: 316px;
+    height: 100%; 
+    display: flex; 
+}
+
+.ch__one__block .inp__check {
+    width: 14px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp__check .inp {
+    width: 14px;
+    height: 14px;
+}
+
+.ch__one__block .inp__text {
+    width: 292px;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.inp__text .txt__text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #8E949A;
+}
+
+.signup__inputs .two__check {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    margin-top: 25px;
+}
+
+.two__check .ch__one__block {
+    width: 316px;
+    height: 100%; 
+    display: flex; 
+}
+
+.ch__one__block .inp__check {
+    width: 14px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp__check .inp {
+    width: 14px;
+    height: 14px;
+}
+
+.ch__one__block .inp__text {
+    width: 292px;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.inp__text .txt__text {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #8E949A;
+}
+
+/*button*/
+.signup__inputs .btn__create {
+    width: 100%;
+    height: 63px;
+    border-radius: 35px;
+    margin-top: 51.6px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn__create .btn {
+    width: 316px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #322FEE;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}

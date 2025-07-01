@@ -1,0 +1,345 @@
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*sobitija 2*/
+.sobitija {
+    width: 100%;
+    height: 970px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobitija .sobitija__block {
+    width: 428px;
+    height: 953px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+}
+
+/*header*/
+.sobitija__block .header {
+    width: 100%;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.header .header__block {
+    width: 368px;
+    height: 100%;
+    display: flex;
+}
+
+.header__block .arrow__left {
+    width: 47px;
+    height: 100%;
+    background-color: #A4A9AE40;
+    border-radius: 23.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__left .img {
+    width: 8px;
+    height: 15.5px;
+}
+
+.header__block .user__img {
+    width: 47px;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__img .img {
+    width: 100%;
+    height: 45px;
+}
+
+.header__block .header__txt {
+    width: 100px;
+    height: 100%;
+    margin-left: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__txt .txt__head {
+    font-family: "Montserrat";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+}
+
+.header__block .notification {
+    width: 47px;
+    height: 100%;
+    background-color: #A4A9AE40;
+    border-radius: 23.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 82px;
+}
+
+.notification .img {
+    width: 20.37px;
+    height: 22px;
+}
+
+/*img*/
+.sobitija__block .img__div {
+    width: 100%;
+    height: 221.04px;
+    display: flex;
+    justify-content: center;
+    margin-top: 32.32px;
+}
+
+.img__div .img__div__block {
+    width: 368px;
+    height: 100%;
+    border-radius: 7px;
+}
+
+.img__div .img__div__block .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+}
+
+/*img content*/
+.sobitija__block .img__content {
+    width: 100%;
+    height: 90px;
+    margin-top: 11.64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img__content .img__content__block {
+    width: 368px;
+    height: 100%;
+    display: flex;
+}
+
+.img__content__block .img__cont__one {
+    width: 160px;
+    height: 100%;
+}
+
+.img__cont__one .one__cont {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #23303B;
+}
+
+.img__cont__one .two__cont {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A4A9AE;
+    margin-top: 8.85px;
+}
+
+.img__content__block .img__cont__two {
+    width: 103px;
+    height: 100%;
+    margin-left: 114.7px;
+}
+
+.img__cont__two .three__cont {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.03em;
+    text-align: right;
+    color: #23303B;
+    margin-top: 10px;
+    
+}
+
+/*content user*/
+.sobitija__block .content__user {
+    width: 100%;
+    height: 329px;
+    margin-top: 29.15px;
+    display: flex;
+    justify-content: center;
+}
+
+.content__user .content__user__block {
+    width: 368px;
+    height: 100%;
+}
+
+.content__user__block .con__us__one {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/*button img user*/
+.sobitija__block .btn__img__us {
+    width: 100%;
+    height: 32px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.btn__img__us .btn__img__us__block {
+    width: 368px;
+    height: 100%;
+}
+
+.btn__img__us__block .btn__map {
+    width: 142px;
+    height: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: #322FEE;
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF; 
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.btn__img__us__block .btn__map .img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.btn__img__us .use__img {
+    width: 73px;
+    height: 73px;
+    position: absolute;
+    left: 280px;
+    top: -40px;
+}
+
+/*footer menu*/
+.sobitija__block .footer__menu {
+    width: 100%;
+    height: 93px;
+    border-radius: 35px;
+    margin-top: 28px;
+    box-shadow: 0px 11px 44px 19px #0000001A;
+    background-color: #F9F9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__menu .foot__men {
+    width: 332px;
+    height: 27px;
+    display: flex;
+}
+
+.foot__men .menu__home {
+    width: 25px;
+    height: 100%;
+}
+
+.menu__home .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__proekt {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__proekt .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__finance {
+    width: 31px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__finance .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__barter {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__barter .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__settings {
+    width: 26px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__settings .img {
+    width: 100%;
+    height: 26px;
+}
+
+.foot__men .menu__exit {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__exit .img {
+    width: 100%;
+    height: 25px;
+}

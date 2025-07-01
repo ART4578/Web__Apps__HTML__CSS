@@ -1,0 +1,464 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+  background: #C7C2C2;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalog__mobile {
+    width: 375px;
+    height: 1150px;
+    background-color: #FFFFFF;
+}
+
+/*navbar mobile*/
+.navbar__mobile {
+    width: 100%;
+    height: 47px;
+    display: flex;
+}
+
+/*block view*/
+.navbar__mobile .block__view {
+    width: 16.11px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 21px;
+}   
+
+.block__view .view__block__menu {
+    width: 100%;
+    height: 6.08px;
+}
+
+.block__border__one {
+    width: 15px;
+    border: 1px solid #000000;
+}
+
+.block__border__two {
+    width: 15px;
+    border: 1px solid #000000;
+    margin-top: 3px;
+}
+
+/*search icon*/
+.navbar__mobile .search__icon__block {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 12.89px;
+} 
+
+.search__icon__block .search__icon {
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__icon__block .search__icon .img {
+    width: 16.18px;
+    height: 16.19px;
+}
+
+/*logo and text*/
+.navbar__mobile .logo__text__block {
+    width: 120.9px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 52.49px;
+}
+
+.logo__text__block .logo__text {
+    width: 100%;
+    height: 27.99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__text .logo__img {
+    width: 27.99px;
+    height: 100%;
+}
+
+.logo__text .logo__img .img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo__text .text__content {
+    margin-left: 4.48px;
+}
+
+/*basket icon*/
+.navbar__mobile .basket__icon__block {
+    width: 22.39px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 84.19px;
+}
+
+.basket__icon__block .basket__icon {
+    width: 100%;
+    height: 22.39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.basket__icon__block .basket__icon .img {
+    width: 22.28px;
+    height: 21.69px;
+}
+
+/*slide menu*/
+.catalog__mobile .slide__menu {
+    width: 100%;
+    height: 42px;
+    display: flex;
+    margin-top: 13px;
+}
+
+.slide__menu .slide__menu__img {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.slide__menu__img .img {
+    width: 17px;
+    height: 18px;    
+}
+
+.slide__menu .slide__menu__content {
+    width: 165px;
+    height: 100%;
+    margin-left: 9px;
+}
+
+.slide__menu__content .text__header {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-top: 0px;
+}
+
+.slide__menu__content .text__content {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #BAB9B9;
+    margin-top: -10px;
+}
+
+/*border bottom*/
+.catalog__mobile .border__bottom__block {
+    width: 100%;
+    height: 2px;
+    margin-top: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border__bottom__block .border__bottom {
+    width: 335px;
+    border: 1px solid #E7E7E7;
+}
+
+/*material filter*/
+.catalog__mobile .material__filter__block {
+    width: 100%;
+    height: 20px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.material__filter__block .material__filter {
+    width: 335px;   
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.material__filter .material__filter__content {
+    width: 92px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.material__filter__content .text__content {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.material__filter .fil__icon__text {
+    width: 69px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fil__icon__text .fil__icon__block {
+    width: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fil__icon__text .fil__icon__block .img {
+    width: 16.67px;
+    height: 15px;
+}
+
+.fil__icon__text .text__content {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+    margin-left: 9px;
+}
+
+/*products one block*/
+.catalog__mobile .products__one__block {
+    width: 100%;
+    height: 237px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.products__one__block .products__one {
+    width: 335px;
+    height: 100%;
+    display: flex;
+}
+
+/*product cart one*/
+.products__one .product__card__one {
+    width: 163px;
+    height: 100%;
+}
+
+.product__card__one .card__one__block {
+    width: 161.8px;
+    height: 203.9px;
+    border: 1px solid #FFFFFF;
+    background-image: url("../img/Rectangle\ 6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card__one__block .heart {
+    width: 10.78px;
+    height: 8.55px;
+    margin-top: 10.73px;
+    margin-left: 11.21px;
+}
+
+.card__one__block .heart .img {
+    width: 100%;
+    height: 100%;
+}
+
+.product__card__one .product__price__block {
+    width: 100%;
+    height: 14px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__card__one .product__price__block .text__content {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.product__card__one .product__price__block .text__price {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__card__one .pro__txt__block {
+    width: 100%;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.product__card__one .pro__txt__block .txt__cont {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*product cart two*/
+.products__one .product__card__two {
+    width: 163px;
+    height: 100%;
+    margin-left: 9px;
+}
+
+.product__card__two .card__two__block {
+    width: 161.8px;
+    height: 203.9px;
+    border: 1px solid #FFFFFF;
+    background-image: url("../img/Rectangle\ 6.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card__two__block .heart {
+    width: 10.78px;
+    height: 8.55px;
+    margin-top: 10.73px;
+    margin-left: 11.21px;
+}
+
+.card__two__block .heart .img {
+    width: 100%;
+    height: 100%;
+}
+
+.product__card__two .product__price__block {
+    width: 100%;
+    height: 14px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__card__two .product__price__block .text__content {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.product__card__two .product__price__block .text__price {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__card__two .pro__txt__block {
+    width: 100%;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.product__card__two .pro__txt__block .txt__cont {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*footer*/
+.container {
+  width: 375px;
+  margin: 0 auto;
+  background: #F8F8F8;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.section {
+  margin-bottom: 12px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 8px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.list li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}

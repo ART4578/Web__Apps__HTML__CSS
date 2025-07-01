@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom right, #fffaf0, #f8e1d4);
+    color: #2c2c2c;
+    line-height: 1.6;
+    padding: 2rem;
+}
+
+.cv-container {
+    max-width: 900px;
+    margin: auto;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    overflow-x: hidden;
+}
+
+.hero {
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #e09b3d;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+    color: #e09b3d;
+}
+
+button {
+    background: #e09b3d;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #c9842f;
+}
+
+section {
+    margin-top: 2rem;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+@keyframes fadeIn {
+    0%  {
+        opacity: 0; 
+        transform: translateY(20px); 
+    }
+
+    100% { 
+        opacity: 1; 
+        transform: translateY(0); 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 { 
+            font-size: 2rem; 
+    }
+
+    .cv-container { 
+        padding: 1rem; 
+    }
+
+    .avatar { 
+        width: 100px; 
+    }
+}

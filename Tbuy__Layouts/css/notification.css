@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification {
+    width: 660px;
+    height: 420px;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h2 {
+    margin-left: 10px;
+}
+
+.date-search {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.div {
+    width: 220px;
+    height: 25px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    width: 80%;
+    height: 100%;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.date1 {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cont p {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+.img1 img {
+    width: 15px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 6px;
+    height: 100%;
+}
+
+.date2 {
+    width: 83px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cont1 p {
+    margin-left: 2px;
+    margin-right: 2px;
+    font-size: 13px;
+}
+
+.child2 {
+    width: 20%;
+    height: 24px;
+    border-radius: 10px;
+    background: #E2000F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child2 img {
+    width: 20px;
+    height: 20px;
+}
+
+.text {
+    width: 100%;
+    height: 370px;
+}
+
+.text-div {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.txt {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.time {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+h4, p {
+    margin-left: 10px;
+    font-size: 16px;    
+}
+
+.href {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.href a {
+    text-decoration: none;
+    color: #4B50ED;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.bg {
+    background: #E1E1E1;
+}
+
+/*Mobile Responsive*/
+@media screen and (max-width: 700px){
+    .notification {
+        width: 270px;
+        height: 570px;
+    }
+    .header {
+        width: 50%;
+        height: 200px;
+    }
+    .date-search {
+        width: 133px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .head h4 {
+        font-size: 13px;
+    }
+    .content p {
+        font-size: 13px;
+    }
+    .div {
+        width: 220px;
+        height: 130px;
+        border: none;
+    }
+    .child1 {
+        width: 100%;
+        height: 100px;
+        border: none;
+    }
+    .date1 {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .line {
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .date2 {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+    }
+    .child2 {
+        width: 100%;
+        height: 25px;
+    }
+}

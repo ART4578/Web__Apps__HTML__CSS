@@ -1,0 +1,544 @@
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*dashboard profile barter*/
+.profile__barter {
+    width: 100%;
+    height: 990px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.profile__barter .profile__barter__block {
+    width: 428px;
+    height: 960px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    opacity: 0.4;
+}
+
+/*header*/
+.profile__barter__block .varification__header {
+    width: 100%;
+    height: 47px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.varification__header .varif__head {
+    width: 368px;
+    height: 100%;
+    display: flex;
+}
+
+/*arrow left icon*/
+.varif__head .varif__arrow {
+    width: 47px;
+    height: 100%;
+    border-radius: 23.5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #A4A9AE40;
+}
+
+.varif__arrow .img {
+    width: 8px;
+    height: 15.5px;
+}
+
+/*text*/
+.varif__head .varif__text {
+    width: 278px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.varif__text .txt__var {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #23303B;
+}
+
+/*notification icon*/
+.varif__head .varif__notif {
+    width: 47px;
+    height: 100%;
+    border-radius: 23.5px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #A4A9AE40;
+}
+
+.varif__notif .img {
+    width: 20.37px;
+    height: 22px;
+}
+
+/*barter buttons*/
+.profile__barter__block .barter__btn {
+    width: 100%;
+    height: 51px;
+    margin-top: 33.91px;
+    display: flex;
+    justify-content: center;
+}
+
+.barter__btn .barter__btn__block {
+    width: 368px;
+    height: 100%;
+    display: flex;
+}
+
+.barter__btn__block .bart__btn__one, .barter__btn__block .bart__btn__two {
+    width: 178px;
+    height: 100%;
+    border-radius: 10px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.barter__btn__block .bart__btn__one {
+    background-color: #322FEE;
+    color: #FFFFFF;
+    border: none;
+}
+
+.barter__btn__block .bart__btn__two {
+    background-color: #FFFFFF;
+    border: 1px solid #456EFE;
+    color: #000000;
+    margin-left: 12px;
+}
+
+/*barter text*/
+.profile__barter__block .barter__text {
+    width: 100%;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+}
+
+.barter__text .barter__text__block {
+    width: 368px;
+    height: 100%;
+}
+
+.barter__text__block .bart__txt {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+/*barter product*/
+.profile__barter__block .barter__product {
+    width: 100%;
+    height: 81px;
+    display: flex;
+    justify-content: center;
+    margin-top: 19px;
+}
+
+.profile__barter__block .barter__products {
+    margin-top: 10px;
+}
+
+.barter__product .barter__product__block {
+    width: 368px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 40px 8px #6E758812;
+    background-color: #FFFFFF;
+    display: flex;
+}
+
+/*img*/
+.barter__product__block .product__img {
+    width: 51px;
+    height: 100%;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__img .img {
+    width: 100%;
+    height: 51px;
+}
+
+/*text*/
+.barter__product__block .product__txts {
+    width: 184px;
+    height: 100%;
+    margin-left: 24.56px;
+}
+
+.product__txts .pro__text__one {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #23303B;
+    margin-top: 19px;
+}
+
+.product__txts .pro__text__two {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #A4A9AE;
+}
+
+/*value*/
+.barter__product__block .product__value {
+    width: 94px;
+    height: 100%;
+    margin-left: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__value .arrow__right {
+    width: 8px;
+    height: 15.5px;
+}
+
+/*footer menu*/
+.profile__barter__block .footer__menu {
+    width: 100%;
+    height: 93px;
+    border-radius: 35px;
+    margin-top: 49px;
+    box-shadow: 0px 11px 44px 19px #0000001A;
+    background-color: #F9F9FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__menu .foot__men {
+    width: 332px;
+    height: 27px;
+    display: flex;
+}
+
+.foot__men .menu__home {
+    width: 25px;
+    height: 100%;
+}
+
+.menu__home .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__proekt {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__proekt .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__finance {
+    width: 31px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__finance .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__barter {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__barter .img {
+    width: 100%;
+    height: 25px;
+}
+
+.foot__men .menu__settings {
+    width: 26px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__settings .img {
+    width: 100%;
+    height: 26px;
+}
+
+.foot__men .menu__exit {
+    width: 25px;
+    height: 100%;
+    margin-left: 35px;
+}
+
+.menu__exit .img {
+    width: 100%;
+    height: 25px;
+}
+
+/*profile barter popup*/
+.profile__barter .pro__bart__popup {
+    width: 428px;
+    height: 391.12px;
+    background-color: #FFFFFF;
+    border-radius: 35px;
+    position: absolute;
+    top: 582px;
+}
+
+.pro__bart__popup .user__img {
+    width: 100%;
+    height: 43px;
+    border-radius: 35px;
+    position: relative;
+}
+
+.pro__bart__popup .user__img .img {
+    width: 75.85px;
+    height: 75.85px;
+    position: absolute;
+    top: -35px;
+    left: 175px;
+}
+
+/*user name*/
+.pro__bart__popup .user__name {
+    width: 100%;
+    height: 57.12px;
+    margin-top: 21.15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pro__bart__popup .user__name .user__name__block {
+    width: 79px;
+    height: 100%;
+}
+
+.user__name__block .name__txt {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #23303B;
+}
+
+.user__name__block .profession__txt {
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #8E949A;
+}
+
+/*transaction text*/
+.pro__bart__popup .transaction {
+    width: 100%;
+    height: 38px;
+    margin-top: 10.92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transaction .transaction__txt {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #322FEE;
+}
+
+/*purchased texts*/
+.pro__bart__popup .purchased__texts {
+    width: 100%;
+    height: 134px;
+    margin-top: 23.96px;  
+    display: flex;
+    justify-content: center;
+} 
+
+.purchased__texts .purchased__texts__block {
+    width: 368px;
+    height: 100%;
+}
+
+/*purchased text 1*/
+.purchased__texts__block .purch__texts__one {
+    width: 100%;
+    height: 58px;
+    display: flex;
+}
+
+.purch__texts__one .text__purch__one {
+    width: 165px;
+    height: 100%;
+}
+
+.purch__texts__one .text__purch__one .txt__purch__one {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #23303B;
+    margin-top: 5px;
+}
+
+.purch__texts__one .text__purch__one .txt__purch__two {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #A4A9AE;
+}
+
+.purch__texts__one .text__purch__two {
+    width: 117px;
+    height: 100%;
+    margin-left: 83px;
+}
+
+.purch__texts__one .text__purch__two .txt__purch__three {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-align: right;
+    color: #23303B;
+    margin-top: 5px;
+}
+
+.purch__texts__one .text__purch__two .txt__purch__four {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: right;
+    color: #23303B;
+}
+
+/*purchased text 2*/
+.purchased__texts__block .purch__texts__two {
+    width: 100%;
+    height: 58px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.purch__texts__two .text__purch__one {
+    width: 165px;
+    height: 100%;
+}
+
+.purch__texts__two .text__purch__one .txt__purch__one {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #23303B;
+    margin-top: 5px;
+}
+
+.purch__texts__two .text__purch__one .txt__purch__two {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #A4A9AE;
+}
+
+.purch__texts__two .text__purch__two {
+    width: 117px;
+    height: 100%;
+    margin-left: 83px;
+}
+
+.purch__texts__two .text__purch__two .txt__purch__three {
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    text-align: right;
+    color: #23303B;
+    margin-top: 5px;
+}
+
+.purch__texts__two .text__purch__two .txt__purch__four {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.06em;
+    text-align: right;
+    color: #23303B;
+}

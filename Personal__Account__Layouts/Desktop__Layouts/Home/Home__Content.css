@@ -1,0 +1,973 @@
+/*google fonts*/
+
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*finance*/
+.finance {
+    width: 1268px; 
+    height: 100%;
+}
+
+/*navbar btn*/
+.finance .navbar__block {
+    width: 100%;
+    height: 48px;
+    margin-top: 24px;
+}
+
+.finance .navbar__btn {
+    width: 1133px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar__btn .navbar {
+    width: 461px;
+    height: 100%;
+    display: flex;
+}
+
+.navbar .navbar__menu__one {
+    width: 120px;
+    height: 100%;
+}
+
+.navbar__menu__one .one__txt {
+    width: 100%;
+    height: 16px;
+}
+
+.navbar__menu__one .one__txt .txt, .navbar__menu__two .text,
+.navbar__menu__three .text, .navbar__menu__four .text {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #060606;
+}
+
+.navbar__menu__one .one__border {
+    width: 56px;
+    height: 4px;
+    margin-top: 25px;
+    border-radius: 110px;
+    background-color: #88CC4C;
+}
+
+.navbar__menu__two, .navbar__menu__three, .navbar__menu__four {
+   height: 100%;
+   margin-left: 45px; 
+}
+
+.navbar .navbar__menu__two {
+    width: 81px;
+}
+
+.navbar .navbar__menu__three {
+    width: 73px;    
+}
+
+.navbar .navbar__menu__four {
+    width: 65px;
+}
+
+.navbar__btn .btn {
+    width: 380px;
+    height: 100%;
+    display: flex;
+}
+
+.btn .balance {
+    width: 134px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.balance .bal, .balance .val {
+    font-family: "Montserrat";
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.balance .bal {
+    font-weight: 400;
+    color: #000000;
+}
+
+.balance .val {
+    font-weight: 700;
+    color: #322FEE;
+}
+
+.btn .button {
+    width: 230px;
+    height: 100%;
+    margin-left: 15px;
+}
+
+.button .btn__button {
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    border: 1px;
+    padding: 5px;
+    gap: 5px;
+    background: #A0F059;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -1.9%;
+    text-align: center;
+    color: #000000;
+}
+
+/*inputs*/
+.finance .inputs__block {
+    width: 100%;
+    height: 48px;
+    margin-top: 36px;
+}
+
+.inputs__block .inputs {
+    width: 915px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+}
+
+.inputs .input__search {
+    width: 239px;
+    height: 100%;
+    border-radius: 102px;
+    display: flex;
+    border: 1px solid #B7BFC5;
+}
+
+.search__inp {
+    width: 150px;
+    height: 100%;
+    border-radius: 102px;
+    background-color: inherit;
+}
+
+.search__inp .se__in {
+    width: 100%;
+    height: 100%;
+    border-radius: 102px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    background-color: inherit;
+}
+
+.border__div {
+    width: 5px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.border__inp {
+    width: 1px;
+    height: 30px;
+    border: 1px solid #B7BFC5;
+}
+
+.search__icon {
+    width: 26px;
+    height: 100%;
+    border-radius: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.search__icon .img__ic {
+    width: 24px;
+    height: 24px;
+}
+
+.inputs .input__sum {
+    width: 150px;
+    height: 100%;
+    border: 1px solid #B7BFC5;
+    border-radius: 102px;
+    gap: 8px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.input__sum .sum__input {
+    width: 100px;
+    height: 100%;
+    border-radius: 102px;
+    background-color: inherit;
+}
+
+.sum__input .inp__sum {
+    width: 100%;
+    height: 100%;
+    border-radius: 102px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    background-color: inherit;
+}
+
+.sum__text__div {
+    width: 32px;
+    height: 100%;
+    border-radius: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: inherit;
+}
+
+.sum__text__div .sum__txt {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: #88CC4C;
+}
+
+.inputs .input__calendar {
+    width: 170px;
+    height: 100%;
+    border: 1px solid green;
+    border-radius: 102px;
+    margin-left: 40px;
+}
+
+.input__calendar .calendar__select {
+    width: 100%;
+    height: 100%;
+    gap: 8px;
+    border-radius: 102px;
+    background-color: #322FEE;
+    font-family: "Inter";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+}
+
+.inputs .input__filter {
+    width: 245px;
+    height: 100%;
+    border: 1px solid #B7BFC5;
+    border-radius: 102px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.filter__inp {
+    width: 195px;
+    height: 100%;
+    border-radius: 102px;
+    background-color: inherit;
+}
+
+.filter__inp .fil__inp {
+    width: 100%;
+    height: 100%;
+    border-radius: 102px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    background-color: inherit;
+}
+
+.input__filter .filter__icon {
+    width: 25px;
+    height: 100%;
+    border-radius: 102px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.filter__icon .fil__img {
+    width: 24px;
+    height: 24px;
+}
+
+/*finance user*/
+.finance__user {
+    width: 100%;
+    height: 840px;
+    border: 1px solid #F5F5F5;
+    margin-top: 25px;
+    display: flex;
+}
+
+/*finance barter*/
+.finance__barter {
+    width: 824px;
+    height: 970px;
+    background-color: #F5F5F5;
+}
+
+/*home barters header*/
+.home__barters__header {
+    width: 100%;
+    height: 78px;
+}
+
+.home__barters__header .home__barters__head {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-left: 20px;
+}
+
+.home__barters__txt {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F7F7F;
+    margin-top: 23px;
+    margin-left: 20px;
+}
+
+/*home barters*/
+.finance__barter .home__barters {
+    width: 100%;
+    height: 148px;
+    margin-top: 23px;
+    display: flex;
+}
+
+/*home barters blocks*/
+.home__barters .home__barters__child__one, 
+.home__barters .home__barters__child__two,
+.home__barters .home__barters__child__three {
+    width: 246px;
+    height: 100%;
+    border-radius: 16px;
+}
+
+.home__barters .home__barters__child__one {
+   margin-left: 20px; 
+   background-color: #322FEE;
+}
+
+.home__barters .home__barters__child__two,
+.home__barters .home__barters__child__three {
+    margin-left: 23px;
+}
+
+.home__barters .home__barters__child__two {
+    background-color: #476FFD;
+}
+
+.home__barters .home__barters__child__three {
+    background-color: #A0F059;
+}
+
+/*home barters header*/
+.home__barters__child__one .hom__bart__head,
+.home__barters__child__two .hom__bart__head,
+.home__barters__child__three .hom__bart__head {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home__barters__child__one .hom__bart__head .text__bart__one,
+.home__barters__child__two .hom__bart__head .text__bart__two,
+.home__barters__child__three .hom__bart__head .text__bart__three {
+    font-family: "Montserrat";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.home__barters__child__one .hom__bart__head .text__bart__one,
+.home__barters__child__two .hom__bart__head .text__bart__two {
+    color: #FFFFFF;
+}
+
+.home__barters__child__three .hom__bart__head .text__bart__three {
+    color: #000000;
+}
+
+/*home barters buttons*/
+.home__barters__child__one .home__bart__buttons__block,
+.home__barters__child__two .home__bart__buttons__block,
+.home__barters__child__three .home__bart__buttons__block {
+    width: 100%;
+    height: 25px;
+    border-radius: 9px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__barters__child__one .home__bart__buttons__block .home__bart__buttons,
+.home__barters__child__two .home__bart__buttons__block .home__bart__buttons,
+.home__barters__child__three .home__bart__buttons__block .home__bart__buttons {
+    height: 100%;
+    display: flex;
+}
+
+.home__barters__child__one .home__bart__buttons__block .home__bart__buttons {
+    width: 202px;
+}
+
+.home__barters__child__two .home__bart__buttons__block .home__bart__buttons,
+.home__barters__child__three .home__bart__buttons__block .home__bart__buttons {
+    width: 220px;
+}
+
+.home__barters__child__one .home__bart__buttons .button__one,
+.home__barters__child__one .home__bart__buttons .button__two,
+.home__barters__child__two .home__bart__buttons .button__three,
+.home__barters__child__two .home__bart__buttons .button__four,
+.home__barters__child__three .home__bart__buttons .button__five,
+.home__barters__child__three .home__bart__buttons .button__six {
+    height: 100%;
+    border-radius: 60px;
+    padding: 5px;
+    gap: 5px;
+    border: 1px solid #FEFEFE;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: -0.019em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__barters__child__one .home__bart__buttons .button__one,
+.home__barters__child__one .home__bart__buttons .button__two {
+    width: 96px;
+}
+
+.home__barters__child__two .home__bart__buttons .button__three,
+.home__barters__child__two .home__bart__buttons .button__four,
+.home__barters__child__three .home__bart__buttons .button__five,
+.home__barters__child__three .home__bart__buttons .button__six {
+    width: 105px;
+}
+
+.home__barters__child__one .home__bart__buttons .button__one {
+    background-color: #A0F059;
+    color: #000000;
+}
+
+.home__barters__child__one .home__bart__buttons .button__two {
+    background-color: #322FEE;
+    color: #FEFEFE;
+    margin-left: 10px;
+}
+
+.home__barters__child__two .home__bart__buttons .button__three,
+.home__barters__child__two .home__bart__buttons .button__four {
+    background-color: #476FFD;
+    color: #FEFEFE;
+}
+
+.home__barters__child__two .home__bart__buttons .button__four {
+    margin-left: 10px;
+}
+
+.home__barters__child__three .home__bart__buttons .button__five,
+.home__barters__child__three .home__bart__buttons .button__six {
+    background-color: #A0F059;
+    border: 1px solid #000000;
+}
+
+.home__barters__child__three .home__bart__buttons .button__six {
+    margin-left: 10px;
+}
+
+/*home products*/
+.home__products {
+    width: 100%;
+    height: 336px;
+    margin-top: 48px;
+}
+
+/*goods menu*/
+.home__products .goods__menu {
+    width: 100%;
+    height: 14px;
+    display: flex;
+}
+
+.goods__menu .good__men__child {
+    width: 112px;
+    height: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.good__men__child .good__text {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.good__men__child .good__href {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #322FEE;
+}
+
+.good__men__child .good__txt {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+}
+
+/*products*/
+.home__products .products {
+    width: 100%;
+    height: 306px;
+    margin-top: 12px;
+    display: flex;
+}
+
+.home__products .products__two {
+    margin-top: 20px;
+}
+
+.products .product__one,
+.products .product__two,
+.products .product__three {
+    width: 243.55px;
+    height: 100%;
+    border-radius: 16px;
+    border: none;
+    background-color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.products .product__two,
+.products .product__three {
+    margin-left: 27.17px;
+}
+
+.product__one .product__img,
+.product__two .product__img,
+.product__three .product__img {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__one .product__img .img,
+.product__two .product__img .img,
+.product__three .product__img .img {
+    width: 219.4px;
+    height: 160px;
+    border-radius: 16px;
+    border: none;
+}
+
+.product__one .product__value,
+.product__two .product__value,
+.product__three .product__value {
+    width: 100%;
+    height: 97px;
+    margin-top: 19px;
+}
+
+.product__one .product__value .value__texts,
+.product__two .product__value .value__texts,
+.product__three .product__value .value__texts {
+    width: 100%;
+    height: 46px;
+}
+
+.product__one .product__value .value__texts .value__text__one,
+.product__two .product__value .value__texts .value__text__one,
+.product__three .product__value .value__texts .value__text__one {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #181818;
+    margin-left: 15px;
+}
+
+.product__one .product__value .value__texts .value__text__two,
+.product__two .product__value .value__texts .value__text__two,
+.product__three .product__value .value__texts .value__text__two {
+    font-family: "Inter";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #322FEE;
+    margin-top: 19px;
+    margin-left: 15px;
+}
+
+.product__one .product__value .value__btn,
+.product__two .product__value .value__btn,
+.product__three .product__value .value__btn  {
+    width: 100%;
+    height: 28px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__one .product__value .value__btn .val__b,
+.product__two .product__value .value__btn .val__b,
+.product__three .product__value .value__btn .val__b {
+    width: 126.81px;
+    height: 28px;
+    border-radius: 60px;
+    padding: 5px;
+    gap: 5px;
+    font-family: "Montserrat";
+    font-size: 8px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: -0.019em;
+    text-align: center;
+} 
+
+.product__one .product__value .value__btn .val__b,
+.product__two .product__value .value__btn .val__b {
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.product__three .product__value .value__btn .val__b {
+    background: linear-gradient(0deg, #0F38CB, #0F38CB), linear-gradient(0deg, #322FEE, #322FEE);
+    color: #FFF5F5;
+    border: none;
+}
+
+/*users interested*/
+.finance__interested {
+    width: 337px;
+    height: 804px;
+    margin-left: 18px;
+}
+
+/*friends*/
+.finance__interested .friends {
+    width: 100%;
+    height: 390px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+/*header*/
+.friends .head__ic__block {
+    width: 100%;
+    height: 16px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.head__ic__block .head__us {
+    width: 279px;
+    height: 100%;
+    margin-left: 16px;
+}
+
+.head__us .head__us__txt {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #181818;
+}
+
+.head__ic__block .ic__us {
+    width: 12px;
+    height: 100%;
+    margin-left: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.ic__us .ic__point__one, .ic__us .ic__point__two ,.ic__us .ic__point__three {
+    width: 3px;
+    height: 3px;
+    background-color: #7F7F7F;
+    border-radius: 50%;
+}
+
+.ic__us .ic__point__two {
+    margin-top: 1px;
+}
+
+.ic__us .ic__point__three {
+    margin-top: 1px;
+}
+
+.friends .friends__users {
+    width: 100%;
+    height: 310px;
+    margin-top: 28px;
+}
+
+/*friends users*/
+.friends__users .friends__users__child__one, .friends__users .friends__users__child__two,
+.friends__users .friends__users__child__three, .friends__users .friends__users__child__four {
+    width: 100%;
+    height: 40px;
+    gap: 12px;
+    display: flex;
+}
+
+.friends__users .friends__users__child__two, .friends__users .friends__users__child__three,
+.friends__users .friends__users__child__four {
+    margin-top: 35px;    
+}
+
+.friends__users__child__one .child__one__img, .friends__users__child__two .child__two__img,
+.friends__users__child__three .child__three__img, .friends__users__child__four .child__four__img {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+.child__one__img .img, .child__two__img .img,
+.child__three__img .img, .child__four__img .img {
+    width: 40px;
+    height: 40px;
+    border-radius: 87px;
+}
+
+.friends__users__child__one .child__one__text, .friends__users__child__two .child__two__text,
+.friends__users__child__three .child__three__text, .friends__users__child__four .child__four__text {
+    width: 197px;
+    height: 100%;
+}
+
+.child__one__text .child__one__t, .child__two__text .child__two__t,
+.child__three__text .child__three__t, .child__four__text .child__four__t {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    color: #181818;
+}
+
+.child__one__text .child__one__tx, .child__two__text .child__two__tx,
+.child__three__text .child__three__tx, .child__four__text .child__four__tx {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #7F7F7F;
+}
+
+/*friends interested*/
+.finance__interested .interested__block {
+    width: 100%;
+    height: 403px;
+    border: 1px solid #F5F5F5;
+    margin-top: 10px;    
+}
+
+.interested__block .block__info__one {
+    width: 100%;
+    height: 210px;
+}
+
+.block__info__one .info__text__block__one {
+    width: 326px;
+    height: 168px;
+    border-radius: 16px;
+    border: none;
+    background-color: #476FFD;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info__text__block__one .info__img__one {
+    width: 100%;
+    height: 33px;
+    margin-top: 16px;
+}
+
+.info__text__block__one .info__img__one .img {
+    width: 33px;
+    height: 100%;
+    margin-left: 16px;
+}
+
+.info__text__block__one .inform__content {
+    width: 100%;
+    height: 46px;
+    margin-top: 0px;
+}
+
+.info__text__block__one  .lorem__info__one {
+    width: 100%;
+    height: 34px;
+}
+
+.info__text__block__one .lor__in__one {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: -1.9%;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+                                   
+.info__text__block__one .inform__content .cont__inform {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -1.9%;
+    color: #FFFFFF;
+    margin-left: 16px;
+}
+
+.block__info__one .block__info__text {
+    width: 100%;
+    height: 16px;
+    margin-top: 5px;
+}
+
+.block__info__text .info__content {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    color: #181818;
+    margin-left: 16px;
+}
+
+.info__text__block__one .block__lorem__one {
+    width: 145px;
+    height: 210px;
+    position: absolute;
+    top: 582px;
+    left: 1285px;
+}
+
+.info__text__block__one .block__lorem__one .img {
+    width: 100%;
+    height: 100%;
+}
+
+.interested__block .block__info__two {
+    width: 100%;
+    height: 193px;
+}
+
+.block__info__two .info__text__block__two {
+    width: 326px;
+    height: 166px;
+    border-radius: 16px;
+    border: none;
+    background-color: #EFACD1;
+    margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info__text__block__two .info__img__two {
+    width: 100%;
+    height: 33px;
+    margin-top: 16px;
+}
+
+.info__img__two .img {
+    width: 33px;
+    height: 100%;
+    margin-left: 16px;
+}
+
+.info__text__block__two .lorem__info__two {
+    width: 100%;
+    height: 40px;
+    margin-top: -46px;
+}
+                                    
+.info__text__block__two .lor__in__two {
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: -0.019em;
+    text-align: left;
+    color: #000000;
+    margin-left: 16px;
+}
+
+.info__text__block__two .block__lorem__two {
+    width: 221px;
+    height: 193px;
+    position: absolute;
+    top: 797px;
+    left: 1199px;
+}
+
+.info__text__block__two .block__lorem__two .img {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,523 @@
+/*google fonts*/
+
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*onboarding finance*/
+.onboarding__finance {
+    width: 100%;
+    height: 1060px;
+    background-color: #F5F5F5;
+    display: flex;
+}
+
+/*profile*/
+.profile {
+    width: 250px;
+    height: 100%;
+}
+
+.profile .profile__bar {
+    width: 209px;
+    height: 992px;
+    background-color: #476FFD;
+    border-radius: 10px;
+    margin-left: 41px;
+    margin-top: 12px;
+}
+
+/*profile user*/
+.profile__bar .profile__img {
+    width: 100%;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__img .pro__img {
+    width: 135px;
+    height: 100%;
+}
+
+/*profile img*/
+.pro__img .img {
+    width: 92px;
+    height: 92px;
+    margin-left: 10px;
+    border-radius: 50%;
+    margin-top: 10px;
+} 
+
+/*profile text*/
+.pro__img .pro__text {
+    width: 114px;
+    height: 14px;
+    margin-left: 10px;
+    margin-top: 7px;
+    gap: 16px;
+}
+
+.pro__text .txt {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+/*profile menu*/
+.profile__menu {
+    width: 100%;
+    height: 728px;
+    gap: 204px;
+    margin-top: 53px;
+}
+
+/*menu global*/
+.profile__menu .menu__global {
+    width: 100%;
+    height: 420px;
+}
+
+/*menu proekt*/
+.menu__proekt {
+    width: 198px;
+    height: 48px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__proekt .proekt__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.proekt__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__proekt .proekt__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__proekt .proekt__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu__proekt .proekt__border {
+    width: 2px;
+    border: 2px solid #3d5c9b;
+    margin-left: 25px;
+}
+
+/*menu home*/
+.menu__home {
+    width: 188px; 
+    height: 48px;
+    background-color: #322FEE;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__home .home__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.home__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__home .home__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__home .home__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu message*/
+.menu__message {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__message .message__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.message__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__message .message__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__message .message__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu finance*/
+.menu__finance {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__finance .finance__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.finance__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__finance .finance__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__finance .finance__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu barters*/
+.menu__barters {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__barters .barters__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.barters__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__barters .barters__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__barters .barters__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu notifications*/
+.menu__notifications {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__notifications .notifications__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.notifications__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__notifications .notifications__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__notifications .notifications__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.menu__notifications .number__div {
+    width: 30px;
+    height: 100%;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__notifications .number__div .notifications__number {
+    width: 20px;
+    height: 20px;
+    gap: 8px;
+    background-color: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__notifications .number__div .notifications__number .num {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+}
+
+/*menu notifications*/
+.menu__help {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__help .help__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.help__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__help .help__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__help .help__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu notifications*/
+.menu__settings {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__settings .settings__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.settings__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__settings .settings__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__settings .settings__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu safety and exit*/
+.profile__menu .menu__safety__exit {
+    width: 100%;
+    height: 106px;
+    margin-top: 201px; 
+}
+
+/*menu safety*/
+.menu__safety {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__safety .safety__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.safety__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__safety .safety__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__safety .safety__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+/*menu exit*/
+.menu__exit {
+    width: 198px;
+    height: 48px;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.menu__exit .exit__icon {
+    width: 24px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.exit__icon .img {
+    width: 24px;
+    height: 24px;
+}
+
+.menu__exit .exit__txt {
+    width: 106px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__exit .exit__txt .text {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

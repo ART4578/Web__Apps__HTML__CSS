@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #C7C2C2;
+}
+
+.filter-container {
+  width: 320px;
+  padding: 16px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  position: relative;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.filter-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filter-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.close-button {
+  background: none;
+  color: #C7C2C2;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.reset, .show {
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.reset {
+  background-color: white;
+  color: #4b32d9;
+  border: 2px solid #4b32d9;
+}
+
+.show {
+  background-color: #4b32d9;
+  color: white;
+  border: none;
+}

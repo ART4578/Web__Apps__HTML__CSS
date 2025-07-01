@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #C7C2C2;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__card {
+    width: 588px;
+    height: 484px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product__card .product__card__block {
+    width: 548px;
+    height: 444px;
+    display: flex;
+}
+
+/*product card one*/
+.product__card__block .product__card__one {
+    width: 242px;
+    height: 100%;
+}
+
+.product__card__one .card__one__block {
+    width: 240px;
+    height: 382px;
+    border: 1px solid #FFFFFF;
+    background-image: url("../img/Rectangle\ 6\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card__one__block .heart {
+    width: 16px;
+    height: 16px;
+    margin-top: 20.11px;
+    margin-left: 16.65px;
+}
+
+.card__one__block .heart .img {
+    width: 100%;
+    height: 100%;
+}
+
+.product__card__one .product__price__block {
+    width: 100%;
+    height: 21px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__card__one .product__price__block .text__content {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.product__card__one .product__price__block .text__price {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__card__one .pro__txt__block {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.product__card__one .pro__txt__block .txt__cont {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*product card two*/
+.product__card__block .product__card__two {
+    width: 242px;
+    height: 100%;
+    margin-left: 64px;
+}
+
+.product__card__two .card__two__block {
+    width: 240px;
+    height: 382px;
+    border: 1px solid #FFFFFF;
+    background-image: url("../img/Rectangle\ 6\ \(2\).png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(4px);
+}
+
+.card__two__block .heart {
+    width: 16px;
+    height: 16px;
+    margin-top: 20.11px;
+    margin-left: 16.65px;
+}
+
+.card__two__block .heart .img {
+    width: 100%;
+    height: 100%;
+}
+
+.product__card__two .product__price__block {
+    width: 100%;
+    height: 21px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__card__two .product__price__block .text__content {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.product__card__two .product__price__block .text__price {
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+.product__card__two .pro__txt__block {
+    width: 100%;
+    height: 15px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.product__card__two .pro__txt__block .txt__cont {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #000000;   
+}
+
+.product__card__two .card__two__block .button__text__link {
+    width: 164px;
+    height: 58px;
+    margin-top: 193px;
+    margin-left: 39px;
+}
+
+.button__text__link .btn {
+    width: 100%;
+    height: 38px;
+    border-radius: 7px;
+    background: #553DF0;
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button__text__link .text__link__block {
+    width: 100%;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+
+.button__text__link .text__link__block .text__link {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #553DF0;
+}

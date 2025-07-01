@@ -1,0 +1,200 @@
+/*font montserrat*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*font inter*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+/*global style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*login*/
+.login {
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login .login__block {
+    width: 428px;
+    height: 926px;
+    border-radius: 35px;
+    border: none;
+    background-color: #23303B;
+} 
+
+/*image header*/
+.login__block .login__image {
+    width: 100%;
+    height: 260px;
+    border-radius: 35px;
+}
+
+.login__image .img {
+    width: 436.45px;
+    height: 260px;
+    margin-left: -9px;
+    border-radius: 35px;
+}
+
+/*login inputs*/
+.login__block .login__inputs {
+    width: 100%;
+    height: 602px;
+    border-radius: 35px;
+}
+
+/*header*/
+.login__block .header__txt {
+    width: 100%;
+    height: 94px;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__txt .txt__head {
+    font-family: "Montserrat";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*inputs*/
+.login__block .inp__block {
+    width: 100%;
+    height: 63px;
+    margin-top: 41px;
+    border-radius: 35px;   
+    display: flex;
+    justify-content: center;
+}
+
+.inp__block .inp__name__block {
+    width: 316px;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.inp__name__block .inp {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.inp__block .inp__password__block {
+    width: 316px;
+    height: 100%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    display: flex;
+}
+
+.inp__password__block .inp__val {
+    width: 270px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.inp__password__block .inp__val .inp {
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.inp__password__block .inp__img {
+    width: 22.7px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp__img .img {
+    width: 100%;
+    height: 22.7px;
+}
+
+/*button*/
+.login__inputs .btn__sign {
+    width: 100%;
+    height: 63px;
+    border-radius: 35px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn__sign .btn {
+    width: 316px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #322FEE;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+} 
+
+/*href texts*/
+.login__inputs .href__text__one {
+    width: 100%;
+    height: 26px;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.href__text__one .href__one {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8E949A;
+}
+
+.login__inputs .href__text__two {
+    width: 100%;
+    height: 78px;
+    margin-top: 39px;
+    display: flex;
+    justify-content: center;
+}
+
+.href__text__two .href__two {
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8E949A;
+}
+
+.href__text__two .style__color {
+    color: #456EFE;
+    border-bottom: 1px solid #456EFE;
+}

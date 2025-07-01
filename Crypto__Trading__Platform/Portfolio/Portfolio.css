@@ -1,0 +1,2979 @@
+/*import google fonts lufga*/
+@import url("https://fonts.cdnfonts.com/css/lufga");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lufga", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D0D;
+}
+
+/*portfolio*/
+.portfolio {
+    width: 1440px;
+    height: 1024px;
+    background-color: #0D0D0D;
+    display: flex;
+}
+
+/*portfolio menu*/
+.portfolio .portfolio__menu {
+    width: 260px;
+    height: 100%;
+    border: 1px solid #212325;
+}
+
+.portfolio__menu .portfolio__icon {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.portfolio__icon .icon__block {
+    width: 34px;
+    height: 60px;
+    margin-left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio__icon .icon__block .img {
+    width: 34px;
+    height: 34px;
+}
+
+.portfolio__menu .menu {
+    width: 100%;
+    height: 816px;
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu .menu__block {
+    width: 182px;
+    height: 100%;
+}
+
+/*menu main*/
+.menu .menu__block .menu__main {
+    width: 100%;
+    height: 384px;
+}
+
+/*dashboard menu*/
+.menu__main .menu__dashboard__block {
+    width: 100%;
+    height: 22px;
+    display: flex;
+}
+
+.menu__dashboard__block .dashboard__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashboard__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__dashboard__block .dashboard__text {
+    width: 87px;
+    height: 100%;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.dashboard__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*portfolio menu*/
+.menu__main .menu__portfolio__block {
+    width: 100%;
+    height: 48px;
+    margin-top: 12px;
+    border-radius: 25px;
+    border: 3px solid;
+    border-image-source: radial-gradient(100% 100% at 0% 0%, #000000 7.61%, #A3A3A3 57.81%, #000000 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    conic-gradient(from 180deg at 50% 50%, #000000 0deg, #FFFFFF 30deg, #000000 95.62deg, #FFFFFF 168.75deg, #000000 228.75deg, #FFFFFF 285deg, #000000 360deg),
+    conic-gradient(from 180deg at 50% 50%, #2C9543 0deg, #77ED91 16.88deg, #77ED91 88.12deg, #77ED91 151.87deg, #77EDB4 225deg, #7EFF9B 288.75deg, #2C9543 360deg);
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.menu__portfolio__block .portf__icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #1A1D1E;
+    margin-left: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portf__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__portfolio__block .portf__text {
+    width: 66px;
+    height: 21px;
+    margin-left: 12px;
+}
+
+.menu__portfolio__block .portf__text .text__content {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #000000;
+}
+
+/*trading menu*/
+.menu__main .menu__trading__block {
+    width: 100%;
+    height: 22px;
+    margin-top: 31px;
+    display: flex;
+}
+
+.menu__trading__block .trading__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trading__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__trading__block .trading__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__trading__block .trading__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*watchlist menu*/
+.menu__main .menu__watchlist__block {
+    width: 100%;
+    height: 22px;
+    margin-top: 31px;
+    display: flex;
+}
+
+.menu__watchlist__block .watchlist__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchlist__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__watchlist__block .watchlist__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__watchlist__block .watchlist__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*academy menu*/
+.menu__main .menu__academy__block {
+    width: 100%;
+    height: 22px;
+    margin-top: 31px;
+    display: flex;
+}
+
+.menu__academy__block .academy__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.academy__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__academy__block .academy__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__academy__block .academy__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*profile menu*/
+.menu__main .menu__profile__block {
+    width: 100%;
+    height: 22px;
+    margin-top: 31px;
+    display: flex;
+}
+
+.menu__profile__block .profile__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__profile__block .profile__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__profile__block .profile__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*wallet menu*/
+.menu__main .menu__wallet__block {
+    width: 100%;
+    height: 22px;
+    margin-top: 31px;
+    display: flex;
+}
+
+.menu__wallet__block .wallet__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wallet__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__wallet__block .wallet__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__wallet__block .wallet__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*menu logout icons*/
+.menu .menu__block .menu__logout__icons {
+    width: 100%;
+    height: 76px;
+    margin-top: 353px;
+}
+
+/*logout menu*/
+.menu__logout__icons .menu__logout__block {
+    width: 100%;
+    height: 22px;
+    display: flex;
+}
+
+.menu__logout__block .logout__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logout__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.menu__logout__block .logout__text {
+    width: 75px;
+    height: 100%;
+    margin-left: 12px;    
+}
+
+.menu__logout__block .logout__text .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*toggle__icons*/
+.menu__logout__icons .toggle__icons {
+    width: 100%;
+    height: 34px;
+    margin-top: 12px;
+}
+
+.menu__logout__icons .toggle__icons .toggle__blocks {
+    width: 72px;
+    height: 100%;
+    margin-left: 10px;
+    border: 1px solid #FFFFFF14;
+    border-radius: 34px;
+    background-color: #151718;
+    display: flex;
+}
+
+.toggle__blocks .sun__icon {
+    width: 22px;
+    height: 100%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toggle__blocks .sun__icon .img {
+    width: 14px;
+    height: 14px;
+}
+
+.toggle__blocks .moon__icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAE529;
+    margin-left: 10px;
+}
+
+.toggle__blocks .moon__icon .img {
+    width: 12.17px;
+    height: 12.57px;
+}
+
+/*portfolio content*/
+.portfolio .portfolio__content {
+    width: 1180px;
+    height: 100%;
+}
+
+/*serch notif user*/
+.portfolio__content .search__notif__user {
+    width: 100%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.search__notif__user .search__notif__user__block {
+    width: 1120px;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*info date*/
+.serch__notif__user .info__date {
+    width: 147px;
+    height: 100%;
+}
+
+.info__date .info__name {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.info__date .info__month {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 11.9px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #909093;
+}
+
+/*search not us*/
+.search__not__us {
+    width: 481px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__not__us .search__not__us__block {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search__not__us .search__box {
+    width: 264px;
+    height: 100%;
+    background-color: #151718;
+    border-radius: 34px;
+    display: flex;
+} 
+
+.search__box .search__icon__block {
+    width: 42px;
+    height: 100%;
+    border-radius: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212325;
+    margin-left: 3px;
+}
+
+.search__box .search__icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__icon .img {
+    width: 22px;
+    height: 22px;
+}
+
+.search__box .search__input {
+    width: 217px;
+    height: 100%;
+    border-radius: 34px;
+    background-color: #151718;
+}
+
+.search__input .inp__search {
+    width: 100%;
+    height: 100%;
+    border-radius: 34px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    padding: 10px;
+    color: #909093;
+}
+
+.search__input .inp__search::placeholder {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #909093;
+}
+
+.search__not__us__block .not__us {
+    width: 197px;
+    height: 100%;
+    display: flex;
+}
+
+.not__us .not__block {
+    width: 50px;
+    height: 100%;
+    border-radius: 34px;
+    background-color: #151718;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.not__block .ellipse {
+    width: 8px;
+    height: 8px;
+    background-color: #EA2D2D;
+    border-radius: 50%;
+    position: absolute;
+    top: 12px;
+    left: 25px;
+}
+
+.not__block .img {
+    width: 22px;
+    height: 22px;
+}
+
+.not__us .user__block {
+    width: 50px;
+    height: 100%;
+    margin-left: 7px;
+    border-radius: 34px;
+}
+
+.user__block .img {
+    width: 100%;
+    height: 100%;
+}
+
+.not__us .user__name__block {
+    width: 53px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.user__name__block .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.not__us .arrow__block {
+    width: 14px;
+    height: 100%;
+    margin-left: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow__block .img {
+    width: 100%;
+    height: 14px;
+}
+
+/*current user*/
+.portfolio__content .current__user {
+    width: 100%;
+    height: 88px;
+    margin-top: 70px;
+}
+
+.current__user .current__user__block {
+    width: 1120px;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*current content*/
+.current__user__block .current__content {
+    width: 169px;
+    height: 100%;
+}
+
+.current__content .view__balance {
+    width: 100%;
+    height: 16px;
+    display: flex;
+}
+
+.view__balance .view__text {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+.view__balance .img {
+    width: 14px;
+    height: 14px;
+    margin-left: 5px;
+}
+
+.current__content .view__money {
+    width: 100%;
+    height: 38px;
+    margin-top: 4px;
+}
+
+.view__money .money__text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 1.5%;
+    color: #FFFFFF;
+}
+
+.current__content .view__money__time {
+    width: 100%;
+    height: 20px;
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.view__money__time .money__result {
+    width: 119px;
+    height: 18px;
+}
+
+.money__result .text__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18.27px;
+    letter-spacing: 1.5%;
+    color: #F92C2C;
+}
+
+.view__money__time .money__info__time {
+    width: 40px;
+    height: 100%;
+    border-radius: 14px;
+    background-color: #1A1D1E;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.money__info__time .text__content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*current buttons*/
+.current__user__block .current__buttons {
+    width: 306px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curr__btns__blocks {
+    width: 100%;
+    height: 44px;
+    display: flex;
+}
+
+.curr__btns__blocks .btn__edit {
+    width: 100px;
+    height: 100%;
+    border-radius: 28px;
+    background-color: #1A1D1E;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn__edit .img {
+    width: 22px;
+    height: 22px;
+}
+
+.btn__edit .edit__txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.curr__btns__blocks .btn__add {
+    width: 196px;
+    height: 100%;
+    border-radius: 28px;
+    background-color: #77ED91;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.btn__add .img {
+    width: 22px;
+    height: 22px;
+}
+
+.btn__add .add__txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+/*crypto money time*/
+.portfolio__content .crypto__money__time {
+    width: 100%;
+    height: 41px;
+    margin-top: 30px;
+}
+
+.crypto__money__time .crypto__money__time__block {
+    width: 559px;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+}
+
+/*crypto all time*/
+.crypto__money__time__block .crypto__all__time {
+    width: 139px;
+    height: 100%;
+}
+
+.crypto__all__time .all__time__txt {
+    width: 100%;
+    height: 16px;
+}
+
+.crypto__all__time .all__tim__cry {
+    width: 100%;
+    height: 21px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.crypto__all__time .all__tim__cry .img {
+    width: 12px;
+    height: 12px;
+    margin-top: 2.5px;
+}
+
+.crypto__all__time .all__tim__cry .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+    margin-left: 1px;
+}
+
+.crypto__all__time .all__time__txt .text__content {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*crypto best time*/
+.crypto__money__time__block .crypto__best__time {
+    width: 172px;
+    height: 100%;
+    margin-left: 47px;
+    display: flex;
+}
+
+.crypto__best__time .best__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crypto__best__time .best__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.crypto__best__time .best__content {
+    width: 144px;
+    height: 100%;
+    margin-left: 2px;
+}
+
+.crypto__best__time .best__content .best__cont {
+    width: 100%;
+    height: 16px;
+}
+
+.best__content .best__cont .text__content {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+.crypto__best__time .best__time__cry {
+    width: 100%;
+    height: 21px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.crypto__best__time .best__time__cry .img {
+    width: 12px;
+    height: 12px;
+    margin-top: 2.5px;
+}
+
+.crypto__best__time .best__time__cry .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+    margin-left: 2px;
+}
+
+.crypto__best__time .best__time__txt .text__content {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*crypto worst time*/
+.crypto__money__time__block .crypto__worst__time {
+    width: 152px;
+    height: 100%;
+    margin-left: 47px;
+    display: flex;
+}
+
+.crypto__worst__time .worst__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.crypto__worst__time .worst__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.crypto__worst__time .worst__content {
+    width: 144px;
+    height: 100%;
+    margin-left: 2px;
+}
+
+.crypto__worst__time .worst__content .worst__cont {
+    width: 100%;
+    height: 16px;
+}
+
+.worst__content .worst__cont .text__content {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+.crypto__worst__time .worst__time__cry {
+    width: 100%;
+    height: 21px;
+    margin-top: 3px;
+    display: flex;
+}
+
+.crypto__worst__time .worst__time__cry .img {
+    width: 12px;
+    height: 12px;
+    margin-top: 4.5px;
+}
+
+.crypto__worst__time .worst__time__cry .text__content {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #F92C2C;
+    margin-left: 2px;
+}
+
+.crypto__worst__time .worst__time__txt .text__content {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #E1E1E1;
+}
+
+/*crypto buttons*/
+.portfolio__content .crypto__buttons {
+    width: 100%;
+    height: 36px;
+    margin-top: 30px;
+}
+
+.crypto__buttons .crypto__buttons__block {
+    width: 283px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.crypto__buttons__block .btn__chart {
+    width: 72px;
+    height: 100%;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    background-color: #0D0D0D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #E1E1E1;
+    cursor: pointer;
+}
+
+.crypto__buttons__block .btn__allocation {
+    width: 101px;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+.crypto__buttons__block .btn__statistics {
+    width: 94px;
+    height: 100%;
+    border: 1px solid #E1E1E1;
+    border-radius: 20px;
+    background-color: #0D0D0D;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #E1E1E1;
+    cursor: pointer;
+    margin-left: 3px;
+}
+
+/*cryptos status*/
+.portfolio__content .cryptos__status {
+    width: 100%;
+    height: 34px;
+    margin-top: 30px;
+}
+
+.cryptos__status .cryptos__status__block {
+    width: 1120.45px;
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+}
+
+/*status techer*/
+.cryptos__status__block .status__techer {
+    width: 397.28px;
+    height: 100%;
+    display: flex;
+}
+
+.status__techer .techer__border {
+    width: 2px;
+    height: 30px;
+    background-color: #45E3B8;
+}
+
+.status__techer .tech__blocks {
+    width: 394px;
+    height: 100%;
+}
+
+.status__techer .techer__block {
+    width: 394px;
+    height: 10px;
+    background-color: #45E3B8;
+}
+
+.status__techer .techer__block__content {
+    width: 394px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.techer__block__content .tech__bloc {
+    width: 8px;
+    height: 8px;
+    background-color: #45E3B8;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.techer__block__content .text__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.techer__block__content .txt__content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+/*status sushi*/
+.cryptos__status__block .status__sushi {
+    width: 276.73px;
+    height: 100%;
+    margin-left: 10.57px;
+    display: flex;
+}
+
+.status__sushi .sushi__blocks {
+    width: 273px;
+    height: 100%;
+}
+
+.sushi__blocks .sushi__bloc {
+    width: 273px;
+    height: 10px;
+    display: flex;
+}
+
+.sushi__bloc .item {
+    width: 48.49px;
+    height: 100%;
+    background-color: #C277ED;
+}
+
+.sushi__bloc .child {
+    margin-left: 8.57px;
+}
+
+.sushi__blocks .sushi__block__content {
+    width: 273px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sushi__block__content .sushi__bloc {
+    width: 8px;
+    height: 8px;
+    background-color: #C277ED;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.sushi__block__content .text__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.sushi__block__content .txt__content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #A1A1A1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.status__sushi .sushi__border {
+    width: 2px;
+    height: 30px;
+    background-color: #C277ED;
+}
+
+/*status bitcoin*/
+.cryptos__status__block .status__bitcoin {
+    width: 426.46px;
+    height: 100%;
+    margin-left: 8px;
+    display: flex;
+}
+
+.status__bitcoin .bitcoin__blocks {
+    width: 423px;
+    height: 100%;
+}
+
+.bitcoin__blocks .bitcoin__bloc {
+    width: 100%;
+    height: 10px;
+    display: flex;
+}
+
+.bitcoin__blocks .bitcoin__bloc .item {
+    width: 13.45px;
+    height: 100%;
+    background-color: #EDD777;
+}
+
+.bitcoin__blocks .bitcoin__bloc .child {
+    margin-left: 4.42px;
+}
+
+.bitcoin__blocks .bitcoin__block__content {
+    width: 423px;
+    height: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bitcoin__block__content .bitcoin__bloc {
+    width: 8px;
+    height: 8px;
+    background-color: #EDD777;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.bitcoin__block__content .text__content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.bitcoin__block__content .txt__content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #A1A1A1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.status__bitcoin .bitcoin__border {
+    width: 2px;
+    height: 30px;
+    background-color: #EDD777;
+}
+
+/*holdings*/
+.portfolio__content .holdings {
+    width: 100%;
+    height: 530px;
+    margin-top: 40px;
+}
+
+.holdings .holdings__block {
+    width: 1120px;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.holdings__block .holdings__text {
+    width: 100%;
+    height: 30px;
+}
+
+.holdings__text .text__content {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+/*holding content*/
+.holdings__block .holdings__content {
+    width: 100%;
+    height: 474px;
+    margin-top: 22px;
+}
+
+/*holdings header*/
+.holdings__content .holdings__header {
+    width: 100%;
+    height: 42px;
+    background-color: #212325;
+    border: 1px solid #212325;
+    display: flex;
+}
+
+.holdings__header .hold__assets__txt {
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hold__assets__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__price__txt {
+    width: 29px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 310px;
+}
+
+.hold__price__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__h__txt {
+    width: 22px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hold__h__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__balance__txt {
+    width: 48px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hold__balance__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__avg__txt {
+    width: 46px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hold__avg__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__profit__txt {
+    width: 63px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hold__profit__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__header .hold__actions__txt {
+    width: 44px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.hold__actions__txt .text__content {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+/*holdings crypto money*/
+.holdings__content .holdings__crypto__money {
+    width: 100%;
+    height: 417px;
+}
+
+/*holdings tether*/
+.holdings__crypto__money .holdings__tether {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__tether .holdings__tether__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__tether__block .tether__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.tether__assets .tether__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tether__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.tether__assets .tether__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.tether__assets .tether__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__tether__block .tether__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.tether__price .tether__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__tether__block .tether__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.tether__h .tether__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.tether__h .tether__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 6px;
+}
+
+.tether__h .tether__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__tether__block .tether__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.tether__balance .tether__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__block .tether__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tether__avg .tether__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__tether__block .tether__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.tether__profit .tether__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__tether__block .tether__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.tether__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.tether__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdings bitcoin*/
+.holdings__crypto__money .holdings__bitcoin {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__bitcoin .holdings__bitcoin__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__bitcoin__block .bitcoin__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.bitcoin__assets .bitcoin__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bitcoin__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.bitcoin__assets .bitcoin__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.bitcoin__assets .bitcoin__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__bitcoin__block .bitcoin__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.bitcoin__price .bitcoin__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__bitcoin__block .bitcoin__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.bitcoin__h .bitcoin__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.bitcoin__h .bitcoin__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.bitcoin__h .bitcoin__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #F92C2C;
+}
+
+.holdings__bitcoin__block .bitcoin__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.bitcoin__balance .bitcoin__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__bitcoin__block .bitcoin__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bitcoin__avg .bitcoin__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__bitcoin__block .bitcoin__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.bitcoin__profit .bitcoin__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__bitcoin__block .bitcoin__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.bitcoin__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.bitcoin__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.bitcoin__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.bitcoin__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bitcoin__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.bitcoin__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.bitcoin__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.bitcoin__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdings sushi*/
+.holdings__crypto__money .holdings__sushi {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__sushi .holdings__sushi__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__sushi__block .sushi__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.sushi__assets .sushi__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushi__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.sushi__assets .sushi__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.sushi__assets .sushi__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__sushi__block .sushi__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.sushi__price .sushi__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__sushi__block .sushi__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.sushi__h .sushi__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.sushi__h .sushi__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.sushi__h .sushi__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__sushi__block .sushi__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.sushi__balance .sushi__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__sushi__block .sushi__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushi__avg .sushi__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__sushi__block .sushi__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.sushi__profit .sushi__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__sushi__block .sushi__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.sushi__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.sushi__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.sushi__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.sushi__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sushi__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.sushi__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.sushi__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.sushi__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdings ton*/
+.holdings__crypto__money .holdings__ton {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__ton .holdings__ton__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__ton__block .ton__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ton__assets .ton__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ton__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.ton__assets .ton__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.ton__assets .ton__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__ton__block .ton__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.ton__price .ton__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ton__block .ton__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.ton__h .ton__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.ton__h .ton__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.ton__h .ton__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__ton__block .ton__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.ton__balance .ton__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ton__block .ton__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ton__avg .ton__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ton__block .ton__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.ton__profit .ton__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ton__block .ton__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.ton__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.ton__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.ton__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.ton__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ton__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.ton__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.ton__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.ton__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdings trx*/
+.holdings__crypto__money .holdings__trx {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__trx .holdings__trx__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__trx__block .trx__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.trx__assets .trx__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trx__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.trx__assets .trx__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.trx__assets .trx__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__trx__block .trx__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.trx__price .trx__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__trx__block .trx__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.trx__h .trx__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.trx__h .trx__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.trx__h .trx__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__trx__block .trx__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.trx__balance .trx__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__trx__block .trx__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trx__avg .trx__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__trx__block .trx__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.trx__profit .trx__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__trx__block .trx__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.trx__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.trx__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.trx__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.trx__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.trx__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.trx__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.trx__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.trx__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdings litecoin*/
+.holdings__crypto__money .holdings__litecoin {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__litecoin .holdings__litecoin__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__litecoin__block .litecoin__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.litecoin__assets .litecoin__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.litecoin__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.litecoin__assets .litecoin__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.litecoin__assets .litecoin__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__litecoin__block .litecoin__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.litecoin__price .litecoin__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__litecoin__block .litecoin__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.litecoin__h .litecoin__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.litecoin__h .litecoin__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.litecoin__h .litecoin__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__litecoin__block .litecoin__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.litecoin__balance .litecoin__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__litecoin__block .litecoin__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.litecoin__avg .litecoin__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__litecoin__block .litecoin__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.litecoin__profit .litecoin__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__litecoin__block .litecoin__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.litecoin__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.litecoin__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.litecoin__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.litecoin__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.litecoin__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.litecoin__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.litecoin__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.litecoin__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+/*holdins ethereum*/
+.holdings__crypto__money .holdings__ethereum {
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #212325;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.holdings__ethereum .holdings__ethereum__block {
+    width: 1100px;
+    height: 30px;
+    display: flex;
+}
+
+.holdings__ethereum__block .ethereum__assets {
+    width: 157px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.ethereum__assets .ethereum__assets__icon {
+    width: 24px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ethereum__assets__icon .img {
+    width: 20px;
+    height: 17.4px;
+}
+
+.ethereum__assets .ethereum__assets__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.ethereum__assets .ethereum__assets__txt {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.66px;
+    letter-spacing: 0%;
+    color: #A1A1A1;
+    margin-left: 5px;
+}
+
+.holdings__ethereum__block .ethereum__price {
+    width: 78px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 142px;
+}
+
+.ethereum__price .ethereum__price__txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ethereum__block .ethereum__h {
+    width: 61px;
+    height: 100%;
+    margin-left: 61px;
+    display: flex;
+    align-items: center;
+}
+
+.ethereum__h .ethereum__h__icon {
+    width: 12px;
+    height: 100%;
+}
+
+.ethereum__h .ethereum__h__icon .img {
+    width: 100%;
+    height: 12px;
+    margin-top: 9px;
+}
+
+.ethereum__h .ethereum__h__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.88px;
+    letter-spacing: 0%;
+    color: #2DC24E;
+}
+
+.holdings__ethereum__block .ethereum__balance {
+    width: 70px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 78px;
+}
+
+.ethereum__balance .ethereum__balance__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ethereum__block .ethereum__avg {
+    width: 58px;
+    height: 100%;
+    margin-left: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ethereum__avg .ethereum__avg__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ethereum__block .ethereum__profit {
+    width: 66px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 97px;
+}
+
+.ethereum__profit .ethereum__profit__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.holdings__ethereum__block .ethereum__actions {
+    width: 70px;
+    height: 100%;
+    margin-left: 74px;
+    display: flex;
+}
+
+.ethereum__actions .action__add {
+    width: 30px;
+    height: 100%;
+}
+
+.ethereum__actions .action__add .btn__add {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    color: #E1E1E1;
+    font-size: 20px;
+}
+
+.ethereum__actions .action__points {
+    width: 30px;
+    height: 100%;
+    margin-left: 8px;
+}
+
+.ethereum__actions .action__points .btn__points {
+    width: 100%;
+    height: 100%;
+    background-color: #212325;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ethereum__actions .btn__points .points__blocks {
+    width: 3.67px;
+    height: 22px;
+}
+
+.ethereum__actions .points__blocks .point__one {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.ethereum__actions .points__blocks .point__two {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}
+
+.ethereum__actions .points__blocks .point__three {
+    width: 100%;
+    height: 3.67px;
+    border: 1px solid #E1E1E1;
+    border-radius: 50%;
+    background-color: #212325;
+    margin-top: 2.45px;
+}

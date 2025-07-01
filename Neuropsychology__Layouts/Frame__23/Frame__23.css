@@ -1,0 +1,94 @@
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/*main style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: rgba(251, 248, 222, 1);
+}
+
+.frame {
+    width: 944px;
+    height: 1186px;
+    background: rgba(255, 151, 0, 1);
+}
+
+/*header*/
+.frame .frame__head {
+    width: 100%;
+    height: 293.38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 247.25px;
+}
+
+.frame__head .frame__header {
+    width: 765px;
+    height: 100%;
+    position: relative;
+}
+
+.frame__header .frame__text__one {
+    width: 100%;
+    height: 115px;
+}
+
+.frame__header .frame__text__one .fr__txt__one {
+    font-family: Century Gothic;
+    font-size: 94.09px;
+    font-weight: 400;
+    line-height: 115.36px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+.frame__header .frame__text__two {
+    width: 737.77px;
+    height: 163.93px;
+    background-color: rgba(255, 170, 0, 1);
+    border-radius: 13.05px;
+    transform: rotate(-2.84deg);
+    position: absolute;
+    top: 108px;
+    left: 20px;
+}
+
+.frame__header .frame__text__two .fr__txt__two {
+    font-family: Century Gothic;
+    font-size: 132.76px;
+    font-weight: 400;
+    line-height: 162.77px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+
+/*img*/
+.frame .frame__img {
+    width: 100%;
+    height: 611.25px;
+    margin-top: 29.12px;
+    display: flex;
+    justify-content: center;
+}
+
+.frame .frame__img .frame__image {
+    width: 669.14px;
+    height: 100%;
+}
+
+.frame__image .img {
+    width: 100%;
+    height: 100%;
+}

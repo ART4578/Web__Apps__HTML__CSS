@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin: 110px auto;
+    background: gray;
+}
+
+.apply-online {
+    width: 800px;
+    height: 550px;
+    background: white;
+    border: 1px solid blue;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.text {
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.inp {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp1 {
+    margin-top: 3px;
+    margin-left: 58px;
+    width: 320px;
+    height: 47px;
+}
+
+.inp1 input {
+    width: 301px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.inp2 {
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 45px;
+    width: 320px;
+    height: 47px;
+} 
+
+.inp2 input {
+    width: 301px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.input2 {
+    margin-top: 3px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp3 {
+    margin-top: 3px;
+    margin-left: 58px;
+    width: 320px;
+    height: 47px;
+}
+
+.inp3 input {
+    width: 301px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.inp4 {
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-left: 45px;
+    width: 320px;
+    height: 47px;
+}
+
+.inp4 input {
+    width: 301px;
+    height: 40px;
+    padding-left: 15px;
+    padding-top: 2px;
+}
+
+.input3 {
+    margin-top: 3px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inp-file {
+    width: 685px;
+    height: 44px;
+    border: 2px dotted #E2000F;
+    margin-left: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.inp-file .img {
+    width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inp-file .img img {
+    width: 20px;
+    height: 20px;
+}
+
+.inp-file .img-text {
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E2000F;
+    font-size: 13px;
+    text-align: center;
+}
+
+.input4 {
+    margin-top: 3px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.message {
+    margin-top: 3px;
+    width: 685px;
+    height: 144px;
+    margin-left: 59px;
+}
+
+.message textarea {
+    width: 671px;
+    height: 130px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.buttons {
+    width: 100%;
+    height: 103px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    width: 270px;
+    height: 42px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button1 {
+    width: 120px;
+    height: 40px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E2000F;
+    background: white;
+    border:1px solid #E2000F;
+}
+
+.button2 {
+    width: 110px;
+    height: 40px;
+    border: none;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E2000F;
+    color: white;
+}
+
+/*Mobile Responsive*/
+@media screen and (max-width: 850px) {
+    body {
+        display: flex;
+        justify-content: center;
+        margin: 130px auto;
+    }
+    .apply-online {
+        margin-left: 53px;
+        width: 453px; /*747*/
+        height: 700px;
+    }
+    .header {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .inp {
+        height: 468px;
+    }
+    .input1 {
+        height: 140px;
+    }
+    .inp1 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .inp1 input {
+        width: 381px;
+    }
+    .inp2 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .inp2 input {
+        width: 381px;
+    }
+    .input2 {
+        height: 140px;
+    }
+    .inp3 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .inp3 input {
+        width: 381px;
+    }
+    .inp4 {
+        width: 400px;
+        margin-left: 30px;
+    }
+    .inp4 input {
+        width: 381px;
+    }
+    .inp-file {
+        width: 398px;
+        margin-left: 30px;
+    }
+    .message {
+        margin-left: 30px;
+        height: 165px;
+    }
+    .message textarea {
+        width: 386px;
+        height: 150px;
+    }
+}

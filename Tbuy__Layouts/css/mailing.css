@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailing {
+    width: 270px;
+    height: 500px;
+}
+
+.m {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.mail {
+    background: #E1E1E1;
+}
+
+.email {
+    background: white;
+}
+
+.border {
+    width: 5px;
+    height: 100%;
+    background: #007bff;
+}
+
+.img {
+    width: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 40px;
+    height: 40px;
+}
+
+.image {
+    width: 55px;
+}
+
+.text {
+    width: 170px;
+    height: 100%;
+}
+
+.text1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.text2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.text1 p, .text2 p {
+    margin-left: 5px;
+}
+
+.text1 p {
+    font-weight: bold;
+}
+
+.text2 p {
+    color: gray;
+    font-size: 10px;
+}
+
+.time-div {
+    width: 41px;
+    height: 100%;
+}
+
+.tim {
+    width: 41px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tim p {
+    color: gray;
+    font-size: 10px;
+}
+
+.num {
+    width: 41px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.border-radius {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
